@@ -5,8 +5,13 @@ better, it makes your run unscoreable.
 
 1. **Stay in your lane.** Create and modify files **only** inside
    `entries/kz_slop_<model>_v<n>/`. Do not read, copy, or reference any other
-   entry folder. (Runs are cut from a template commit, so there shouldn't be
-   anything else to find — don't go looking.)
+   entry folder, **nor any other map repository — local or remote — including
+   this project's ancestor.** Your inputs are: this repo's docs, your own
+   knowledge, your harness's tools, and the Momentum install paths TOOLCHAIN.md
+   names. Public engine/game documentation on the web is fine; other people's
+   (or other agents') map source code is not. (Runs are cut from a template
+   commit, so there's nothing else in-repo to find — don't go looking outside
+   it either.)
 2. **Don't touch the spec.** `SPEC.md`, `TOOLCHAIN.md`, `RULES.md`, and
    `scoring/` are frozen. If you think the spec is wrong or ambiguous, note it
    in your README under **Spec feedback** and make a reasonable call — don't

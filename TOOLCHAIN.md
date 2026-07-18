@@ -11,6 +11,9 @@ Momentum's Strata-based fork.
 - Compile tools ship inside the game install: `<MOM>\bin\win64\`
 - Momentum mounts HL2 content from `<MOM>\mount\` — `nature/` textures and the
   `sky_cape_hill` skybox are safe for all players. Stick to mounted stock content.
+  The engine's built-in dev textures are also always present and may be used for
+  small functional accents (zone markers, a finish beacon), but the theme must
+  come from real materials — a dev-textured map scores a 1 on aesthetics.
 - A map whose filename starts with `kz_` auto-selects KZ/Climb (KZT) mode.
 
 ## Build pipeline
@@ -65,6 +68,11 @@ Constants (from docs.momentum-mod.org, validated in-game):
 | Prestrafe (realistic ceiling) | ~275 u/s |
 | KZT bhop speed cap | 380 u/s |
 | Vertical takeoff speed | √(2·800·57) ≈ 302 u/s |
+| Crouch-jump takeoff speed | √(2·800·66) ≈ 325 u/s |
+
+Crouch-jumps count as within the movement model: a required climb between 57 u
+and 66 u is legal, but treat it as a precision move (use the 325 u/s takeoff
+speed in the airtime formula and keep extra margin).
 
 Airtime when landing `dz` units **above** takeoff (negative `dz` = drop):
 

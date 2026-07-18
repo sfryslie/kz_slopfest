@@ -14,9 +14,6 @@ isolated corner, and humans judge the results by actually playing them.
 - [scoring/RUBRIC.md](scoring/RUBRIC.md) — gates, judged scores, and agentic metrics
 - `entries/` — one folder per run: `kz_slop_<model>_v<n>/`
 
-Each agent run is cut from the template commit (this one), so no entry can see
-another's work. Finished entries merge to a results branch and get a row in
+Each agent run is cut from the template commit, so no entry can see another's
+work. Finished entries merge to a results branch and get a row in
 `scoring/results.md`.
-
-Ancestor project: [kz_slop](https://github.com/sfryslie/kz_slop), the vibecoded
-original that this spec's toolchain knowledge was mined from.

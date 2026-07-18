@@ -34,10 +34,14 @@ A complete map entry in `entries/kz_slop_<model>_v<n>/` containing:
    of the physically clearable distance at the speed a player can reasonably
    carry into it. One impossible required jump fails the entire entry.
 4. **Timer and checkpoints.** A valid zone JSON with a start zone, an end zone,
-   and a checkpoint per stage, in the format TOOLCHAIN.md describes. The timer
-   must actually start, split, and stop in-game.
+   and a timed split at each stage boundary (each stage-start zone is that
+   stage's checkpoint — this matches the segment topology zonemaker emits;
+   additional mid-stage checkpoints are optional). The timer must actually
+   start, split, and stop in-game.
 5. **Stability.** The map compiles through the full pipeline without errors,
-   loads in Momentum Mod without crashing, and has no leaks.
+   loads in Momentum Mod without crashing, and has no leaks. Fast-quality
+   compile flags (e.g. `vvis -fast`) are fine while iterating, but the
+   **shipped** `.bsp` must come from a full-quality vvis and vrad pass.
 6. **Generated, not hand-made.** The `.vmf` must be fully reproducible by running
    your generator script. Hand-editing the VMF disqualifies the entry.
 
