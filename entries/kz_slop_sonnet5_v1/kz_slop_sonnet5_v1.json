@@ -1,0 +1,76 @@
+{
+    "formatVersion": 1,
+    "dataTimestamp": 1784348099,
+    "tracks": {
+        "main": {
+            "zones": {
+                "segments": [{
+                        "limitStartGroundSpeed": true,
+                        "checkpointsRequired": true,
+                        "checkpointsOrdered": true,
+                        "checkpoints": [{
+                                "regions": [{
+                                        "points": [[384.0, -192.0], [384.0, 192.0], [0.0, 192.0], [0.0, -192.0]],
+                                        "bottom": -4.0,
+                                        "height": 132.0,
+                                        "teleDestTargetname": "dest_stage1",
+                                        "safeHeight": 0.0
+                                    }]
+                            }],
+                        "name": "Foothold"
+                    }, {
+                        "limitStartGroundSpeed": true,
+                        "checkpointsRequired": true,
+                        "checkpointsOrdered": true,
+                        "checkpoints": [{
+                                "regions": [{
+                                        "points": [[1532.0, -160.0], [1532.0, 160.0], [1212.0, 160.0], [1212.0, -160.0]],
+                                        "bottom": 20.0,
+                                        "height": 132.0,
+                                        "teleDestTargetname": "dest_stage2",
+                                        "safeHeight": 0.0
+                                    }]
+                            }],
+                        "name": "Switchback"
+                    }, {
+                        "limitStartGroundSpeed": true,
+                        "checkpointsRequired": true,
+                        "checkpointsOrdered": true,
+                        "checkpoints": [{
+                                "regions": [{
+                                        "points": [[2742.0, -90.0], [2742.0, 198.0], [2422.0, 198.0], [2422.0, -90.0]],
+                                        "bottom": 100.0,
+                                        "height": 132.0,
+                                        "teleDestTargetname": "dest_stage3",
+                                        "safeHeight": 0.0
+                                    }]
+                            }],
+                        "name": "Rockslide"
+                    }, {
+                        "limitStartGroundSpeed": true,
+                        "checkpointsRequired": true,
+                        "checkpointsOrdered": true,
+                        "checkpoints": [{
+                                "regions": [{
+                                        "points": [[3684.0, -76.0], [3684.0, 164.0], [3428.0, 164.0], [3428.0, -76.0]],
+                                        "bottom": 248.0,
+                                        "height": 132.0,
+                                        "teleDestTargetname": "dest_stage4",
+                                        "safeHeight": 0.0
+                                    }]
+                            }],
+                        "name": "Summit Ridge"
+                    }],
+                "end": {
+                    "regions": [{
+                            "points": [[4530.0, -16.0], [4530.0, 144.0], [4210.0, 144.0], [4210.0, -16.0]],
+                            "bottom": 304.0,
+                            "height": 132.0
+                        }]
+                }
+            },
+            "stagesEndAtStageStarts": true,
+            "bhopEnabled": false
+        }
+    }
+}
