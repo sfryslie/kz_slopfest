@@ -46,6 +46,16 @@ lowercase with no dots (e.g. `opus48`, `sonnet5`, `haiku45`, `gpt5codex`);
    **shipped** `.bsp` must come from a full-quality vvis and vrad pass.
 6. **Generated, not hand-made.** The `.vmf` must be fully reproducible by running
    your generator script. Hand-editing the VMF disqualifies the entry.
+7. **It must actually demand jumping.** This is a KZ map: on the required route,
+   consecutive platforms must be separated by gaps or rises that **cannot be
+   crossed by walking** — no continuous walkable terrain (slopes, dirt fill,
+   displacement ramps) bridging or bypassing any required jump, in any stage.
+   Each stage needs at least 3 required jumps. A course you can walk from start
+   to finish is not a KZ map, whatever its theme.
+8. **No soft-locks.** Anywhere a player can fall off the route and be unable to
+   rejoin it must be covered by a kill trigger (`trigger_teleport` back or kill
+   volume) so they respawn instead of wandering a pit. Falling must never strand
+   the player.
 
 ## Process (this is the spec-driven part)
 
@@ -63,7 +73,13 @@ lowercase with no dots (e.g. `opus48`, `sonnet5`, `haiku45`, `gpt5codex`);
 - [ ] vbsp / vvis / vrad complete without errors
 - [ ] Zone JSON is valid and zonemaker (or hand-derived zones) matches the geometry
 - [ ] Map loads in Momentum Mod, no crash, no leak
-- [ ] Timer starts, splits at each stage, and stops at the end
+- [ ] Timer starts, splits at each stage, and **stops at a reachable end zone**
+      (verify as far as your harness allows; a human judge certifies it live —
+      entries have shipped with non-functioning end zones before, so treat this
+      gate as unproven until witnessed)
 - [ ] Course is completable within the movement model (every required jump ≤ 88% of max)
+- [ ] Every stage requires jumping; no walkable route or bypass exists past any
+      required jump
+- [ ] All fall-off areas are covered by kill/teleport triggers — no soft-locks
 
 Entries that pass the gates are scored per [scoring/RUBRIC.md](scoring/RUBRIC.md).
