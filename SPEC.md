@@ -27,10 +27,13 @@ lowercase with no dots (e.g. `opus48`, `sonnet5`, `haiku45`, `gpt5codex`);
 1. **Theme.** Pick a theme and commit to it. State it in your README and make it
    visible in the map — geometry, texturing, and layout should all read as that
    theme, within the limits of stock textures (see TOOLCHAIN.md for what's mounted).
-2. **Difficulty ramp.** At least **4 stages**. Each stage's hardest *required*
-   movement must be harder than the previous stage's — longer gap, tighter
-   landing, higher precision, or more technical (your PLAN.md must say which,
-   per stage, so it can be checked against the geometry).
+2. **Difficulty ramp.** At least **6 stages**. Each stage must be harder than
+   the previous one, on at least one of two axes — and your PLAN.md must say
+   which, per stage, so it can be checked against the geometry:
+   - **Harder movements** — longer gap, tighter landing, higher precision, more
+     technical; and/or
+   - **Longer sequences** — more consecutive required jumps between rest
+     platforms, so sustained execution ramps even when individual jumps don't.
 3. **Beatable.** Every movement required to finish must be within the movement
    model in TOOLCHAIN.md, with margin. A required jump may use at most **88%**
    of the physically clearable distance at the speed a player can reasonably
@@ -50,8 +53,8 @@ lowercase with no dots (e.g. `opus48`, `sonnet5`, `haiku45`, `gpt5codex`);
    consecutive platforms must be separated by gaps or rises that **cannot be
    crossed by walking** — no continuous walkable terrain (slopes, dirt fill,
    displacement ramps) bridging or bypassing any required jump, in any stage.
-   Each stage needs at least 3 required jumps. A course you can walk from start
-   to finish is not a KZ map, whatever its theme.
+   Each stage needs at least **6 required jumps**. A course you can walk from
+   start to finish is not a KZ map, whatever its theme.
 8. **No soft-locks.** Anywhere a player can fall off the route and be unable to
    rejoin it must be covered by a kill trigger (`trigger_teleport` back or kill
    volume) so they respawn instead of wandering a pit. Falling must never strand
