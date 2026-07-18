@@ -18,7 +18,9 @@ A complete map entry in `entries/kz_slop_<model>_v<n>/` containing:
 | `kz_slop_<model>_v<n>.bsp` | Compiled map |
 | `kz_slop_<model>_v<n>.json` | Zone file (timer + checkpoints) |
 
-`<model>` is your assigned short name (e.g. `fable`, `codex`, `grok`), `<n>` starts at 1.
+`<model>` is your assigned short name and **must include the model version**,
+lowercase with no dots (e.g. `opus48`, `sonnet5`, `haiku45`, `gpt5codex`);
+`<n>` starts at 1.
 
 ## Requirements
 
