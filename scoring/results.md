@@ -17,3 +17,8 @@ Operator notes, wave 1 (2026-07-17): three parallel runs from template `4d8e312`
 rule — no observed contention. Subagents on this machine cannot inject input
 into the game window, so "in-game verify" maxes out at load/console.log for all
 local Claude runs; beatability remains analytic until human playtest.
+
+**Naming note:** Wave 1 entries use `_v1` suffixes — an per-model attempt counter from
+early spec drafts. From **spec generation 4** onward, the map suffix matches the
+integer in SPEC.md (`_v3`, `_v4`, …). Generation 3 results above would be `_v3`
+under current rules; names are unchanged here.

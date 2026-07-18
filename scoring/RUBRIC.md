@@ -13,9 +13,9 @@ independently, then average.
 
 | Category | 1 | 5 |
 |---|---|---|
-| **Theme & aesthetics** | Gray boxes with a README excuse | Coherent look; you can tell the theme without reading it |
+| **Theme & aesthetics** | Gray boxes with a README excuse | Coherent look; props and materials tell the theme without reading the README |
 | **Difficulty curve** | Flat, spiky, or backwards | Each stage teaches the next; finale feels earned |
-| **Fun** | Chore | "One more run" |
+| **Fun** | Chore; uniform pad corridor | Flow, pacing, memorable setpieces — "one more run" |
 
 ## Layer 2 — agentic metrics (recorded per run, not summed into a score)
 

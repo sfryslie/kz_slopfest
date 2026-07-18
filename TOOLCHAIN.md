@@ -9,11 +9,13 @@ Momentum's Strata-based fork.
 - Game: **Momentum Mod Playtest**, Steam appid `1802710`
 - Install root (`<MOM>` below): `C:\Program Files (x86)\Steam\steamapps\common\Momentum Mod Playtest`
 - Compile tools ship inside the game install: `<MOM>\bin\win64\`
-- Momentum mounts HL2 content from `<MOM>\mount\` — `nature/` textures and the
-  `sky_cape_hill` skybox are safe for all players. Stick to mounted stock content.
-  The engine's built-in dev textures are also always present and may be used for
-  small functional accents (zone markers, a finish beacon), but the theme must
-  come from real materials — a dev-textured map scores a 1 on aesthetics.
+- **Content:** Tier 1 assets ship in `<MOM>\mount\hl2_dir.vpk` plus loose files under
+  `<MOM>\momentum\materials\`. See [ASSETS.md](ASSETS.md) for curated palettes,
+  verified material names, and prop kits. Do not use Tier 2 content (TF2, CS:GO,
+  etc.) — it is not guaranteed on every machine.
+- The engine's built-in `dev/` and `tools/` textures are always present. Small
+  functional accents (zone markers, a finish beacon) are fine, but the theme must
+  come from real Tier 1 materials — a dev-textured map scores 1 on aesthetics.
 - A map whose filename starts with `kz_` auto-selects KZ/Climb (KZT) mode.
 
 ## Build pipeline
@@ -38,6 +40,32 @@ steam.exe -applaunch 1802710 -novid -windowed -w 1280 -h 720 -condebug +map your
 
 then read `<MOM>\momentum\console.log` for load errors, leak warnings, and zone
 registration messages.
+
+## Shared install and parallel runs
+
+Benchmark operators often run **multiple agents on one machine** sharing a single
+Momentum install. Contention is real — parallel full-quality compiles have caused
+OS memory pressure and crashes.
+
+**Compile scheduling (follow on shared machines):**
+
+| Step | Parallel OK? | Notes |
+|---|---|---|
+| Generator / `vbsp` | Usually yes | Lighter; still prefer one `vbsp` at a time if RAM is tight |
+| `vvis` (full) | **No** — one at a time | Heavy CPU/RAM; wait for other agents to finish |
+| `vrad` (full) | **No** — one at a time | Heaviest step; mimalloc OOM crashes have occurred under load |
+| Game launch | **No** — one at a time | Wait if Steam/Momentum is already running |
+
+If a compile fails with memory errors, mimalloc warnings, or silent `vrad` crashes
+(`.mdmp` files beside your map), **wait 2–3 minutes** and retry **alone** — do
+not stack another full compile on top.
+
+**Game launch:** use `-novid -windowed`, close the game when done. If
+`-applaunch` fails or the game is already running, wait 2–3 minutes and retry
+(up to a few times) before reporting failure.
+
+There is no central lock file — agents must self-throttle. When in doubt, sleep
+and retry rather than hammering the shared install.
 
 ## Verified gotchas (each of these cost real debugging time)
 
