@@ -1,0 +1,76 @@
+{
+    "formatVersion": 1,
+    "dataTimestamp": 1784347801,
+    "tracks": {
+        "main": {
+            "zones": {
+                "segments": [{
+                        "limitStartGroundSpeed": true,
+                        "checkpointsRequired": false,
+                        "checkpointsOrdered": true,
+                        "checkpoints": [{
+                                "regions": [{
+                                        "points": [[-8.0, -136.0], [232.0, -136.0], [232.0, 136.0], [-8.0, 136.0]],
+                                        "bottom": 0.0,
+                                        "height": 128.0,
+                                        "teleDestTargetname": "tele_start",
+                                        "safeHeight": 0.0
+                                    }]
+                            }],
+                        "name": "Tideline"
+                    }, {
+                        "limitStartGroundSpeed": false,
+                        "checkpointsRequired": false,
+                        "checkpointsOrdered": true,
+                        "checkpoints": [{
+                                "regions": [{
+                                        "points": [[1176.0, -64.0], [1272.0, -64.0], [1272.0, 64.0], [1176.0, 64.0]],
+                                        "bottom": 16.0,
+                                        "height": 128.0,
+                                        "teleDestTargetname": "tele_s2",
+                                        "safeHeight": 0.0
+                                    }]
+                            }],
+                        "name": "Scramble"
+                    }, {
+                        "limitStartGroundSpeed": false,
+                        "checkpointsRequired": false,
+                        "checkpointsOrdered": true,
+                        "checkpoints": [{
+                                "regions": [{
+                                        "points": [[2288.0, -36.0], [2360.0, -36.0], [2360.0, 36.0], [2288.0, 36.0]],
+                                        "bottom": 104.0,
+                                        "height": 128.0,
+                                        "teleDestTargetname": "tele_s3",
+                                        "safeHeight": 0.0
+                                    }]
+                            }],
+                        "name": "Ledgeworks"
+                    }, {
+                        "limitStartGroundSpeed": false,
+                        "checkpointsRequired": false,
+                        "checkpointsOrdered": true,
+                        "checkpoints": [{
+                                "regions": [{
+                                        "points": [[3324.0, -30.0], [3384.0, -30.0], [3384.0, 30.0], [3324.0, 30.0]],
+                                        "bottom": 240.0,
+                                        "height": 128.0,
+                                        "teleDestTargetname": "tele_s4",
+                                        "safeHeight": 0.0
+                                    }]
+                            }],
+                        "name": "Summit Spires"
+                    }],
+                "end": {
+                    "regions": [{
+                            "points": [[4214.0, -88.0], [4422.0, -88.0], [4422.0, 88.0], [4214.0, 88.0]],
+                            "bottom": 400.0,
+                            "height": 128.0
+                        }]
+                }
+            },
+            "stagesEndAtStageStarts": true,
+            "bhopEnabled": false
+        }
+    }
+}
