@@ -16,7 +16,7 @@ version that must appear in your map filename — the way Source maps use `_v2`,
 | Generation | Template commit | Summary |
 |---|---|---|
 | 3 | `1a0c5a6` | 6+ stages, 6+ jumps/stage, killboxes, witnessed end zones |
-| **4** | *(set when this lands on `main`)* | Tier 1 ASSETS.md, layout + prop gates, shared-compile etiquette |
+| **4** | `15cd23a` | Tier 1 ASSETS.md, layout + prop gates, shared-compile etiquette |
 
 Older results tables may say "spec v3.1" — that is generation **3**.
 
