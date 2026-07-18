@@ -19,13 +19,13 @@ parity is what makes entries comparable.
    Use the underlying model's name, not the IDE brand.
 3. `<gen>` is the **spec generation** from the header of SPEC.md in that worktree
    (e.g. `4` → branch `entry/composer25-v4`, map `kz_slop_composer25_v4`).
-3. Launch the harness **in that worktree folder**, in whatever auto-approve /
+4. Launch the harness **in that worktree folder**, in whatever auto-approve /
    full-auto mode it offers (it must be able to run shell commands to compile).
-4. Paste the prompt below. Note the wall-clock start time.
-5. Hands off. Every time you unstick it — answer, hint, retry, path fix —
+5. Paste the prompt below. Note the wall-clock start time.
+6. Hands off. Every time you unstick it — answer, hint, retry, path fix —
    tally one intervention. The operator's tally overrides the agent's
    self-report.
-6. When it finishes: note end time, record whatever usage/cost the harness
+7. When it finishes: note end time, record whatever usage/cost the harness
    reports, and add the row to `scoring/results.md`. Push the entry branch.
 
 ## The prompt
