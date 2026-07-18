@@ -72,10 +72,11 @@ and retry rather than hammering the shared install.
 1. **VMF plane winding:** the three points defining each brush face must wind
    **clockwise when viewed from outside** the brush. Get it wrong and vbsp
    silently strips all faces, then segfaults.
-2. **Zone brushes need `vertices_plus`:** zonemaker.exe requires the Strata
-   Hammer `vertices_plus` blocks on zone brush faces. The error when missing is
-   the unhelpful "Could not find bottom of zone brush". Emit them from your
-   generator.
+2. **Every brush side needs `vertices_plus`:** zonemaker.exe requires the Strata
+   Hammer `vertices_plus` blocks on zone brush faces — the error when missing is
+   the unhelpful "Could not find bottom of zone brush". Wave-2 entries
+   (composer25) found the tools happier with `vertices_plus` on **all** brush
+   sides, not just zone brushes. Emit them everywhere from your generator.
 3. **Timer comes from the JSON only:** the runtime ignores `zone_timer_*`
    entities baked into the BSP ("unknown entity type" console warnings are
    harmless). If the timer doesn't work, the problem is in the JSON zone file,
@@ -83,6 +84,28 @@ and retry rather than hammering the shared install.
 4. **Displacement orientation:** `dispinfo` rows advance **+Y** from
    `startposition` (the min corner) and columns advance **+X** (verified against
    `builddisp.cpp` in the momentum-mod/game source).
+5. **Seal the hull with `tools/toolsskybox`, not nodraw:** outer shell faces
+   textured `tools/toolsnodraw` do **not** seal against the void — use
+   `tools/toolsskybox` on the enclosing hull. Also avoid themed wall brushes
+   **coplanar with** the skybox hull; coplanar faces reintroduce portal leaks
+   (wave 2, composer25). A solid enclosed start chamber merged into stage 1
+   prevents spawn-point leaks in long procedural layouts.
+6. **Zone entity keys per the FGD:** if you bake zone entities into the VMF for
+   zonemaker to read, the momentum FGD keys are `stage_number` and
+   `restart_destination` — not `stage` / `restartdestination` (wave 2,
+   composer25). Remember the runtime timer still comes from the JSON only
+   (gotcha 3).
+7. **Zone JSON segment topology:** with `stagesEndAtStageStarts: true`, emit
+   **one segment per stage start** — six segments for a six-stage map — not a
+   separate start zone plus per-stage end markers. Each stage-start zone is that
+   stage's checkpoint, matching SPEC.md requirement 4 (wave 2, composer25;
+   stage-split console messages confirmed in-game by grok45).
+8. **vbsp material path warnings:** `gameinfo.txt` references
+   `mount/hl2_dir.vpk` relative to the momentum folder while the VPK lives at
+   `<MOM>\mount\`. The runtime mounts content fine, but vbsp can emit material
+   resolution warnings depending on the compile-time search path (wave 2,
+   grok45). Warnings on ASSETS.md-verified names are noise; warnings on other
+   names usually mean the material really is missing — swap it.
 
 ## Movement model (Momentum climb mode — derive your gaps from this)
 
