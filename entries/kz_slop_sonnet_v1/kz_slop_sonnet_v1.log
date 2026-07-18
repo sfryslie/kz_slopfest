@@ -1,0 +1,445 @@
+Loading C:\Users\shfry\Documents\GitHub\kz_slopfest-dryrun\entries\kz_slop_sonnet_v1\kz_slop_sonnet_v1.vmf
+Map revision 2
+"nature/rockwall021b" - "materials/ep2/nature/rockwall021b.vtf": cached version doesn't exist
+fixing up env_cubemap materials on brush sides...
+ProcessBlock_Thread : 0...1...2...3...4...5...6...7...8...9...10 (0)
+ProcessBlock_Thread : 0...1...2...3...4...5...6...7...8...9...10 (0)
+Processing areas...
+done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\shfry\Documents\GitHub\kz_slopfest-dryrun\entries\kz_slop_sonnet_v1\kz_slop_sonnet_v1.prt...
+Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Building Physics collision data...
+done (0) (110063 bytes)
+Placing detail props : 0...1...2...3...4...5...6...Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+7Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+.Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+.Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+.Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+8Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+.Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+.Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+.Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+9Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+.Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+.Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+Material NATURE/BLENDCLIFFSAND01A uses unknown detail object type swamp_land_001!
+.10
+Compacting texture/material tables...
+Reduced 34 texinfos to 27
+Reduced 13 texdatas to 13 (268 bytes to 268)
+Writing C:\Users\shfry\Documents\GitHub\kz_slopfest-dryrun\entries\kz_slop_sonnet_v1\kz_slop_sonnet_v1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\shfry\documents\github\kz_slopfest-dryrun\entries\kz_slop_sonnet_v1\kz_slop_sonnet_v1.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+24 threads
+reading C:\Users\shfry\Documents\GitHub\kz_slopfest-dryrun\entries\kz_slop_sonnet_v1\kz_slop_sonnet_v1.bsp
+reading C:\Users\shfry\Documents\GitHub\kz_slopfest-dryrun\entries\kz_slop_sonnet_v1\kz_slop_sonnet_v1.prt
+ 508 portalclusters
+2247 numportals
+BasePortalVis : 0...1...2...3...4...5...6...7...8...9...10 (0)
+Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 257836
+Average clusters visible: 507
+Building PAS...
+Average clusters audible: 508
+visdatasize:69092  compressed from 65024
+writing C:\Users\shfry\Documents\GitHub\kz_slopfest-dryrun\entries\kz_slop_sonnet_v1\kz_slop_sonnet_v1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\shfry\documents\github\kz_slopfest-dryrun\entries\kz_slop_sonnet_v1\kz_slop_sonnet_v1.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading C:\Users\shfry\Documents\GitHub\kz_slopfest-dryrun\entries\kz_slop_sonnet_v1\kz_slop_sonnet_v1.bsp
+1070 faces
+1320691 square feet [190179584.00 square inches]
+312 Displacements
+627214 Square Feet [90318832.00 Square Inches]
+1070 patches before subdivision
+18906 patches after subdivision
+2 direct lights
+BuildFacelights : 0...1...2...3...4...5...6...7...8...9...10 (3)
+BuildVisLeafs : 0...1...2...3...4...5...6...7...8...9...10 (0)
+transfers 489856, max 400
+transfer lists:   3.7 megs
+GatherLight : 0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #1 added RGB(12213, 9044, 5291)
+GatherLight : 0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #2 added RGB(217, 143, 68)
+GatherLight : 0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #3 added RGB(6, 4, 1)
+GatherLight : 0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #4 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0071 sec>
+FinalLightFace : 0...1...2...3...4...5...6...7...8...9...10 (2)
+FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ThreadComputeLeafAmbient : 0...1...2...3...4...5...6...7...8...9...10 (0)
+Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs    Memory / Maxmem  Fullness 
+------------       ---------------    ---------------  -------- 
+models                   6/65536         288/3145728    ( 0.0%) 
+brushes                107/131072       1284/1572864    ( 0.1%) 
+brushsides             642/1310720     10272/20971520   ( 0.0%) 
+planes                1174/1048576     23480/20971520   ( 0.1%) 
+vertexes              1422/1048576     17064/12582912   ( 0.1%) 
+nodes                  723/1048576     34704/50331648   ( 0.1%) 
+texinfos                27/0            1944/0          ( 0.0%) 
+texdata                 13/16384         416/524288     ( 0.1%) 
+dispinfos              312/262144      72384/60817408   ( 0.1%) 
+disp_verts           25272/0          505440/0          ( 0.0%) 
+disp_tris            39936/0           79872/0          ( 0.0%) 
+disp_multiblend          0/0               0/0          ( 0.0%) 
+disp_lmsamples      404352/0          404352/0          ( 0.0%) 
+faces                 1070/1048576     77040/75497472   ( 0.1%) 
+hdr faces             1070/1048576     77040/75497472   ( 0.1%) 
+origfaces              901/1048576     64872/75497472   ( 0.1%) 
+facebrushes              0/0               0/0          ( 0.0%) 
+facebrushlists        1070/0            8560/0          ( 0.0%) 
+leaves                 730/1048576     40880/58720256   ( 0.1%) 
+leaffaces              889/1048576      3556/4194304    ( 0.1%) 
+leafbrushes            181/1048576       724/4194304    ( 0.0%) 
+areas                    2/65536          16/524288     ( 0.0%) 
+surfedges             8102/8192000     32408/32768000   ( 0.1%) 
+edges                 4187/4096000     33496/32768000   ( 0.1%) 
+LDR worldlights          0/0               0/0          ( 0.0%) 
+HDR worldlights          2/0             200/0          ( 0.0%) 
+leafwaterdata            0/32768           0/393216     ( 0.0%) 
+waterstrips              3/1048576        60/20971520   ( 0.0%) 
+waterverts               0/1048576         0/12582912   ( 0.0%) 
+waterindices            42/1048576       168/4194304    ( 0.0%) 
+cubemapsamples           0/16384           0/262144     ( 0.0%) 
+overlays              [variable]           0/0          ( 0.0%) 
+overlaytrans             0/16384           0/268435456  ( 0.0%) 
+colorvars                0/16777214        0/1073741696 ( 0.0%) 
+LDR lightdata         [variable]           0/0          ( 0.0%) 
+HDR lightdata         [variable]     1893228/0          ( 0.0%) 
+visdata               [variable]       69092/268435456  ( 0.0%) 
+entdata               [variable]        2322/393216     ( 0.6%) 
+LDR ambient table      730/1048576      5840/8388608    ( 0.1%) 
+HDR ambient table      730/1048576      5840/8388608    ( 0.1%) 
+LDR leaf ambient       730/1048576     20440/29360128   ( 0.1%) 
+HDR leaf ambient      4909/1048576    137452/29360128   ( 0.5%) 
+occluders                0/0               0/0          ( 0.0%) 
+occluder polygons        0/0               0/0          ( 0.0%) 
+occluder vert ind        0/0               0/0          ( 0.0%) 
+detail props          [variable]           1/12         ( 8.3%) 
+static props          [variable]           1/12         ( 8.3%) 
+pakfile               [variable]       74466/0          ( 0.0%) 
+physics               [variable]      110063/4194304    ( 2.6%) 
+physics terrain       [variable]      193948/1048576    (18.5%) 
+
+Level flags = 4000007c
+
+Total triangle count: 2358
+Writing C:\Users\shfry\Documents\GitHub\kz_slopfest-dryrun\entries\kz_slop_sonnet_v1\kz_slop_sonnet_v1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\shfry\documents\github\kz_slopfest-dryrun\entries\kz_slop_sonnet_v1\kz_slop_sonnet_v1.bsp', but we don't own that location. Allowing...
+5 seconds elapsed
