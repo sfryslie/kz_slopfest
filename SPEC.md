@@ -17,7 +17,7 @@ version that must appear in your map filename — the way Source maps use `_v2`,
 |---|---|---|
 | 3 | `1a0c5a6` | 6+ stages, 6+ jumps/stage, killboxes, witnessed end zones |
 | 4 | `15cd23a` | Tier 1 ASSETS.md, layout + prop gates, shared-compile etiquette |
-| **5** | `cf33271` | Single-track vertical climb, catch geometry, difficulty curve, route manifest + shared validator |
+| **5** | `25588d3` | Single-track vertical climb, catch geometry, difficulty curve, rise caps, route manifest + shared validator |
 
 Older results tables may say "spec v3.1" — that is generation **3**.
 
