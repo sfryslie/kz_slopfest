@@ -7,7 +7,8 @@ parity is what makes entries comparable.
 ## Operator procedure
 
 1. Cut a worktree from the current template commit (see SPEC.md generation table;
-   generation **3** template: `1a0c5a6`; generation **4** template: `15cd23a`):
+   generation **3**: `1a0c5a6`; generation **4**: `15cd23a`; generation **5**:
+   `cf33271`):
 
    ```
    cd C:\Users\shfry\Documents\GitHub\kz_slopfest
