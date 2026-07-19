@@ -1,0 +1,2677 @@
+{
+  "map": "kz_slop_gemini31pro_v5",
+  "start": {
+    "pos": [
+      0,
+      0,
+      16
+    ],
+    "yaw": 0
+  },
+  "end": {
+    "pos": [
+      227,
+      787,
+      3375
+    ],
+    "_bounds": {
+      "x1": -29,
+      "y1": 531,
+      "z1": 3359,
+      "x2": 483,
+      "y2": 1043,
+      "z2": 3487
+    }
+  },
+  "checkpoints": [
+    {
+      "index": 1,
+      "pos": [
+        410,
+        -145,
+        480
+      ],
+      "regionSize": [
+        512,
+        512
+      ],
+      "_bounds": {
+        "x1": 154,
+        "y1": -401,
+        "z1": 464,
+        "x2": 666,
+        "y2": 111,
+        "z2": 592
+      }
+    },
+    {
+      "index": 2,
+      "pos": [
+        666,
+        342,
+        944
+      ],
+      "regionSize": [
+        512,
+        512
+      ],
+      "_bounds": {
+        "x1": 410,
+        "y1": 86,
+        "z1": 928,
+        "x2": 922,
+        "y2": 598,
+        "z2": 1056
+      }
+    },
+    {
+      "index": 3,
+      "pos": [
+        205,
+        641,
+        1408
+      ],
+      "regionSize": [
+        512,
+        512
+      ],
+      "_bounds": {
+        "x1": -51,
+        "y1": 385,
+        "z1": 1392,
+        "x2": 461,
+        "y2": 897,
+        "z2": 1520
+      }
+    },
+    {
+      "index": 4,
+      "pos": [
+        -68,
+        163,
+        1980
+      ],
+      "regionSize": [
+        512,
+        512
+      ],
+      "_bounds": {
+        "x1": -324,
+        "y1": -93,
+        "z1": 1964,
+        "x2": 188,
+        "y2": 419,
+        "z2": 2092
+      }
+    },
+    {
+      "index": 5,
+      "pos": [
+        397,
+        10,
+        2447
+      ],
+      "regionSize": [
+        512,
+        512
+      ],
+      "_bounds": {
+        "x1": 141,
+        "y1": -246,
+        "z1": 2431,
+        "x2": 653,
+        "y2": 266,
+        "z2": 2559
+      }
+    },
+    {
+      "index": 6,
+      "pos": [
+        619,
+        497,
+        2911
+      ],
+      "regionSize": [
+        512,
+        512
+      ],
+      "_bounds": {
+        "x1": 363,
+        "y1": 241,
+        "z1": 2895,
+        "x2": 875,
+        "y2": 753,
+        "z2": 3023
+      }
+    }
+  ],
+  "jumps": [
+    {
+      "index": 1,
+      "leg": 1,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        94,
+        0,
+        44
+      ],
+      "gap": 94,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.55,
+      "crouch": false,
+      "heading": "N",
+      "landing": [
+        160,
+        128
+      ]
+    },
+    {
+      "index": 2,
+      "leg": 1,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        94,
+        0,
+        44
+      ],
+      "gap": 94,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.55,
+      "crouch": false,
+      "heading": "E",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 3,
+      "leg": 1,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        94,
+        0,
+        44
+      ],
+      "gap": 94,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.55,
+      "crouch": false,
+      "heading": "E",
+      "landing": [
+        128,
+        160
+      ]
+    },
+    {
+      "index": 4,
+      "leg": 1,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        94,
+        0,
+        44
+      ],
+      "gap": 94,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.55,
+      "crouch": false,
+      "heading": "S",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 5,
+      "leg": 1,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        94,
+        0,
+        44
+      ],
+      "gap": 94,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.55,
+      "crouch": false,
+      "heading": "S",
+      "landing": [
+        160,
+        128
+      ]
+    },
+    {
+      "index": 6,
+      "leg": 1,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        94,
+        0,
+        44
+      ],
+      "gap": 94,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.55,
+      "crouch": false,
+      "heading": "N",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 7,
+      "leg": 1,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        171,
+        0,
+        -64
+      ],
+      "gap": 171,
+      "dz": -64,
+      "assumedSpeed": 250,
+      "fraction": 0.65,
+      "crouch": false,
+      "heading": "N",
+      "landing": [
+        160,
+        128
+      ]
+    },
+    {
+      "index": 8,
+      "leg": 1,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        94,
+        0,
+        44
+      ],
+      "gap": 94,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.55,
+      "crouch": false,
+      "heading": "E",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 9,
+      "leg": 1,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        94,
+        0,
+        44
+      ],
+      "gap": 94,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.55,
+      "crouch": false,
+      "heading": "E",
+      "landing": [
+        128,
+        160
+      ]
+    },
+    {
+      "index": 10,
+      "leg": 1,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        94,
+        0,
+        44
+      ],
+      "gap": 94,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.55,
+      "crouch": false,
+      "heading": "S",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 11,
+      "leg": 1,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        94,
+        0,
+        44
+      ],
+      "gap": 94,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.55,
+      "crouch": false,
+      "heading": "S",
+      "landing": [
+        160,
+        128
+      ]
+    },
+    {
+      "index": 12,
+      "leg": 1,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        94,
+        0,
+        44
+      ],
+      "gap": 94,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.55,
+      "crouch": false,
+      "heading": "W",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 13,
+      "leg": 2,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        94,
+        0,
+        44
+      ],
+      "gap": 94,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.55,
+      "crouch": false,
+      "heading": "W",
+      "landing": [
+        128,
+        160
+      ]
+    },
+    {
+      "index": 14,
+      "leg": 2,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        94,
+        0,
+        44
+      ],
+      "gap": 94,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.55,
+      "crouch": false,
+      "heading": "N",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 15,
+      "leg": 2,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        94,
+        0,
+        44
+      ],
+      "gap": 94,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.55,
+      "crouch": false,
+      "heading": "N",
+      "landing": [
+        160,
+        128
+      ]
+    },
+    {
+      "index": 16,
+      "leg": 2,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        94,
+        0,
+        44
+      ],
+      "gap": 94,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.55,
+      "crouch": false,
+      "heading": "E",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 17,
+      "leg": 2,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        94,
+        0,
+        44
+      ],
+      "gap": 94,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.55,
+      "crouch": false,
+      "heading": "E",
+      "landing": [
+        128,
+        160
+      ]
+    },
+    {
+      "index": 18,
+      "leg": 2,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        94,
+        0,
+        44
+      ],
+      "gap": 94,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.55,
+      "crouch": false,
+      "heading": "W",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 19,
+      "leg": 2,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        94,
+        0,
+        44
+      ],
+      "gap": 94,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.55,
+      "crouch": false,
+      "heading": "W",
+      "landing": [
+        128,
+        160
+      ]
+    },
+    {
+      "index": 20,
+      "leg": 2,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        111,
+        0,
+        44
+      ],
+      "gap": 111,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.65,
+      "crouch": false,
+      "heading": "N",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 21,
+      "leg": 2,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        171,
+        0,
+        -64
+      ],
+      "gap": 171,
+      "dz": -64,
+      "assumedSpeed": 250,
+      "fraction": 0.65,
+      "crouch": false,
+      "heading": "N",
+      "landing": [
+        160,
+        128
+      ]
+    },
+    {
+      "index": 22,
+      "leg": 2,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        111,
+        0,
+        44
+      ],
+      "gap": 111,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.65,
+      "crouch": false,
+      "heading": "E",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 23,
+      "leg": 2,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        111,
+        0,
+        44
+      ],
+      "gap": 111,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.65,
+      "crouch": false,
+      "heading": "E",
+      "landing": [
+        128,
+        160
+      ]
+    },
+    {
+      "index": 24,
+      "leg": 2,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        111,
+        0,
+        44
+      ],
+      "gap": 111,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.65,
+      "crouch": false,
+      "heading": "S",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 25,
+      "leg": 3,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        111,
+        0,
+        44
+      ],
+      "gap": 111,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.65,
+      "crouch": false,
+      "heading": "S",
+      "landing": [
+        160,
+        128
+      ]
+    },
+    {
+      "index": 26,
+      "leg": 3,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        111,
+        0,
+        44
+      ],
+      "gap": 111,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.65,
+      "crouch": false,
+      "heading": "W",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 27,
+      "leg": 3,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        111,
+        0,
+        44
+      ],
+      "gap": 111,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.65,
+      "crouch": false,
+      "heading": "W",
+      "landing": [
+        128,
+        160
+      ]
+    },
+    {
+      "index": 28,
+      "leg": 3,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        111,
+        0,
+        44
+      ],
+      "gap": 111,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.65,
+      "crouch": false,
+      "heading": "N",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 29,
+      "leg": 3,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        111,
+        0,
+        44
+      ],
+      "gap": 111,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.65,
+      "crouch": false,
+      "heading": "N",
+      "landing": [
+        160,
+        128
+      ]
+    },
+    {
+      "index": 30,
+      "leg": 3,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        111,
+        0,
+        44
+      ],
+      "gap": 111,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.65,
+      "crouch": false,
+      "heading": "S",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 31,
+      "leg": 3,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        111,
+        0,
+        44
+      ],
+      "gap": 111,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.65,
+      "crouch": false,
+      "heading": "S",
+      "landing": [
+        160,
+        128
+      ]
+    },
+    {
+      "index": 32,
+      "leg": 3,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        111,
+        0,
+        44
+      ],
+      "gap": 111,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.65,
+      "crouch": false,
+      "heading": "W",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 33,
+      "leg": 3,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        111,
+        0,
+        44
+      ],
+      "gap": 111,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.65,
+      "crouch": false,
+      "heading": "W",
+      "landing": [
+        128,
+        160
+      ]
+    },
+    {
+      "index": 34,
+      "leg": 3,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        111,
+        0,
+        44
+      ],
+      "gap": 111,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.65,
+      "crouch": false,
+      "heading": "N",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 35,
+      "leg": 3,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        171,
+        0,
+        -64
+      ],
+      "gap": 171,
+      "dz": -64,
+      "assumedSpeed": 250,
+      "fraction": 0.65,
+      "crouch": false,
+      "heading": "N",
+      "landing": [
+        160,
+        128
+      ]
+    },
+    {
+      "index": 36,
+      "leg": 3,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        111,
+        0,
+        44
+      ],
+      "gap": 111,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.65,
+      "crouch": false,
+      "heading": "E",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 37,
+      "leg": 4,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        111,
+        0,
+        44
+      ],
+      "gap": 111,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.65,
+      "crouch": false,
+      "heading": "E",
+      "landing": [
+        128,
+        160
+      ]
+    },
+    {
+      "index": 38,
+      "leg": 4,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        111,
+        0,
+        44
+      ],
+      "gap": 111,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.65,
+      "crouch": false,
+      "heading": "S",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 39,
+      "leg": 4,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        111,
+        0,
+        44
+      ],
+      "gap": 111,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.65,
+      "crouch": false,
+      "heading": "S",
+      "landing": [
+        160,
+        128
+      ]
+    },
+    {
+      "index": 40,
+      "leg": 4,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        128,
+        0,
+        44
+      ],
+      "gap": 128,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.75,
+      "crouch": false,
+      "heading": "W",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 41,
+      "leg": 4,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        128,
+        0,
+        44
+      ],
+      "gap": 128,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.75,
+      "crouch": false,
+      "heading": "W",
+      "landing": [
+        128,
+        160
+      ]
+    },
+    {
+      "index": 42,
+      "leg": 4,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        128,
+        0,
+        44
+      ],
+      "gap": 128,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.75,
+      "crouch": false,
+      "heading": "E",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 43,
+      "leg": 4,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        128,
+        0,
+        44
+      ],
+      "gap": 128,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.75,
+      "crouch": false,
+      "heading": "E",
+      "landing": [
+        128,
+        160
+      ]
+    },
+    {
+      "index": 44,
+      "leg": 4,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        128,
+        0,
+        44
+      ],
+      "gap": 128,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.75,
+      "crouch": false,
+      "heading": "S",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 45,
+      "leg": 4,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        128,
+        0,
+        44
+      ],
+      "gap": 128,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.75,
+      "crouch": false,
+      "heading": "S",
+      "landing": [
+        160,
+        128
+      ]
+    },
+    {
+      "index": 46,
+      "leg": 4,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        128,
+        0,
+        44
+      ],
+      "gap": 128,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.75,
+      "crouch": false,
+      "heading": "W",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 47,
+      "leg": 4,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        128,
+        0,
+        44
+      ],
+      "gap": 128,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.75,
+      "crouch": false,
+      "heading": "W",
+      "landing": [
+        128,
+        160
+      ]
+    },
+    {
+      "index": 48,
+      "leg": 4,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        128,
+        0,
+        44
+      ],
+      "gap": 128,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.75,
+      "crouch": false,
+      "heading": "N",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 49,
+      "leg": 5,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        171,
+        0,
+        -64
+      ],
+      "gap": 171,
+      "dz": -64,
+      "assumedSpeed": 250,
+      "fraction": 0.65,
+      "crouch": false,
+      "heading": "N",
+      "landing": [
+        160,
+        128
+      ]
+    },
+    {
+      "index": 50,
+      "leg": 5,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        141,
+        0,
+        47
+      ],
+      "gap": 141,
+      "dz": 47,
+      "assumedSpeed": 250,
+      "fraction": 0.85,
+      "crouch": false,
+      "heading": "E",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 51,
+      "leg": 5,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        102,
+        0,
+        44
+      ],
+      "gap": 102,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.6,
+      "crouch": false,
+      "heading": "E",
+      "landing": [
+        128,
+        160
+      ]
+    },
+    {
+      "index": 52,
+      "leg": 5,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        102,
+        0,
+        44
+      ],
+      "gap": 102,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.6,
+      "crouch": false,
+      "heading": "S",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 53,
+      "leg": 5,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        94,
+        0,
+        44
+      ],
+      "gap": 94,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.55,
+      "crouch": false,
+      "heading": "S",
+      "landing": [
+        160,
+        128
+      ]
+    },
+    {
+      "index": 54,
+      "leg": 5,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        94,
+        0,
+        44
+      ],
+      "gap": 94,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.55,
+      "crouch": false,
+      "heading": "N",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 55,
+      "leg": 5,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        94,
+        0,
+        44
+      ],
+      "gap": 94,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.55,
+      "crouch": false,
+      "heading": "N",
+      "landing": [
+        160,
+        128
+      ]
+    },
+    {
+      "index": 56,
+      "leg": 5,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        94,
+        0,
+        44
+      ],
+      "gap": 94,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.55,
+      "crouch": false,
+      "heading": "E",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 57,
+      "leg": 5,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        94,
+        0,
+        44
+      ],
+      "gap": 94,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.55,
+      "crouch": false,
+      "heading": "E",
+      "landing": [
+        128,
+        160
+      ]
+    },
+    {
+      "index": 58,
+      "leg": 5,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        94,
+        0,
+        44
+      ],
+      "gap": 94,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.55,
+      "crouch": false,
+      "heading": "S",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 59,
+      "leg": 5,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        94,
+        0,
+        44
+      ],
+      "gap": 94,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.55,
+      "crouch": false,
+      "heading": "S",
+      "landing": [
+        160,
+        128
+      ]
+    },
+    {
+      "index": 60,
+      "leg": 5,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        94,
+        0,
+        44
+      ],
+      "gap": 94,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.55,
+      "crouch": false,
+      "heading": "W",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 61,
+      "leg": 6,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        94,
+        0,
+        44
+      ],
+      "gap": 94,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.55,
+      "crouch": false,
+      "heading": "W",
+      "landing": [
+        128,
+        160
+      ]
+    },
+    {
+      "index": 62,
+      "leg": 6,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        94,
+        0,
+        44
+      ],
+      "gap": 94,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.55,
+      "crouch": false,
+      "heading": "N",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 63,
+      "leg": 6,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        171,
+        0,
+        -64
+      ],
+      "gap": 171,
+      "dz": -64,
+      "assumedSpeed": 250,
+      "fraction": 0.65,
+      "crouch": false,
+      "heading": "N",
+      "landing": [
+        160,
+        128
+      ]
+    },
+    {
+      "index": 64,
+      "leg": 6,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        94,
+        0,
+        44
+      ],
+      "gap": 94,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.55,
+      "crouch": false,
+      "heading": "E",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 65,
+      "leg": 6,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        94,
+        0,
+        44
+      ],
+      "gap": 94,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.55,
+      "crouch": false,
+      "heading": "E",
+      "landing": [
+        128,
+        160
+      ]
+    },
+    {
+      "index": 66,
+      "leg": 6,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        94,
+        0,
+        44
+      ],
+      "gap": 94,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.55,
+      "crouch": false,
+      "heading": "W",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 67,
+      "leg": 6,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        94,
+        0,
+        44
+      ],
+      "gap": 94,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.55,
+      "crouch": false,
+      "heading": "W",
+      "landing": [
+        128,
+        160
+      ]
+    },
+    {
+      "index": 68,
+      "leg": 6,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        94,
+        0,
+        44
+      ],
+      "gap": 94,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.55,
+      "crouch": false,
+      "heading": "N",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 69,
+      "leg": 6,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        94,
+        0,
+        44
+      ],
+      "gap": 94,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.55,
+      "crouch": false,
+      "heading": "N",
+      "landing": [
+        160,
+        128
+      ]
+    },
+    {
+      "index": 70,
+      "leg": 6,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        94,
+        0,
+        44
+      ],
+      "gap": 94,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.55,
+      "crouch": false,
+      "heading": "E",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 71,
+      "leg": 6,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        94,
+        0,
+        44
+      ],
+      "gap": 94,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.55,
+      "crouch": false,
+      "heading": "E",
+      "landing": [
+        128,
+        160
+      ]
+    },
+    {
+      "index": 72,
+      "leg": 6,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        94,
+        0,
+        44
+      ],
+      "gap": 94,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.55,
+      "crouch": false,
+      "heading": "S",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 73,
+      "leg": 7,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        94,
+        0,
+        44
+      ],
+      "gap": 94,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.55,
+      "crouch": false,
+      "heading": "S",
+      "landing": [
+        160,
+        128
+      ]
+    },
+    {
+      "index": 74,
+      "leg": 7,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        94,
+        0,
+        44
+      ],
+      "gap": 94,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.55,
+      "crouch": false,
+      "heading": "W",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 75,
+      "leg": 7,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        85,
+        0,
+        44
+      ],
+      "gap": 85,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.5,
+      "crouch": false,
+      "heading": "W",
+      "landing": [
+        128,
+        160
+      ]
+    },
+    {
+      "index": 76,
+      "leg": 7,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        85,
+        0,
+        44
+      ],
+      "gap": 85,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.5,
+      "crouch": false,
+      "heading": "N",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 77,
+      "leg": 7,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        171,
+        0,
+        -64
+      ],
+      "gap": 171,
+      "dz": -64,
+      "assumedSpeed": 250,
+      "fraction": 0.65,
+      "crouch": false,
+      "heading": "N",
+      "landing": [
+        160,
+        128
+      ]
+    },
+    {
+      "index": 78,
+      "leg": 7,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        85,
+        0,
+        44
+      ],
+      "gap": 85,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.5,
+      "crouch": false,
+      "heading": "S",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 79,
+      "leg": 7,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        85,
+        0,
+        44
+      ],
+      "gap": 85,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.5,
+      "crouch": false,
+      "heading": "S",
+      "landing": [
+        160,
+        128
+      ]
+    },
+    {
+      "index": 80,
+      "leg": 7,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        85,
+        0,
+        44
+      ],
+      "gap": 85,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.5,
+      "crouch": false,
+      "heading": "W",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 81,
+      "leg": 7,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        85,
+        0,
+        44
+      ],
+      "gap": 85,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.5,
+      "crouch": false,
+      "heading": "W",
+      "landing": [
+        128,
+        160
+      ]
+    },
+    {
+      "index": 82,
+      "leg": 7,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        85,
+        0,
+        44
+      ],
+      "gap": 85,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.5,
+      "crouch": false,
+      "heading": "N",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 83,
+      "leg": 7,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        85,
+        0,
+        44
+      ],
+      "gap": 85,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.5,
+      "crouch": false,
+      "heading": "N",
+      "landing": [
+        160,
+        128
+      ]
+    },
+    {
+      "index": 84,
+      "leg": 7,
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        85,
+        0,
+        44
+      ],
+      "gap": 85,
+      "dz": 44,
+      "assumedSpeed": 250,
+      "fraction": 0.5,
+      "crouch": false,
+      "heading": "E",
+      "landing": [
+        128,
+        128
+      ]
+    }
+  ],
+  "props": [
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        192,
+        222,
+        -84
+      ],
+      "leg": 1
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        222,
+        414,
+        -40
+      ],
+      "leg": 1
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        444,
+        414,
+        4
+      ],
+      "leg": 1
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        252,
+        0,
+        48
+      ],
+      "leg": 1
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        252,
+        -222,
+        92
+      ],
+      "leg": 1
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        636,
+        0,
+        136
+      ],
+      "leg": 1
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        636,
+        299,
+        72
+      ],
+      "leg": 1
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        666,
+        491,
+        116
+      ],
+      "leg": 1
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        188,
+        -337,
+        380
+      ],
+      "leg": 2
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        380,
+        77,
+        424
+      ],
+      "leg": 2
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        380,
+        299,
+        468
+      ],
+      "leg": 2
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        410,
+        491,
+        512
+      ],
+      "leg": 2
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        632,
+        491,
+        556
+      ],
+      "leg": 2
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        410,
+        107,
+        600
+      ],
+      "leg": 2
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        188,
+        107,
+        644
+      ],
+      "leg": 2
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        380,
+        538,
+        688
+      ],
+      "leg": 2
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        474,
+        103,
+        844
+      ],
+      "leg": 3
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        427,
+        -89,
+        888
+      ],
+      "leg": 3
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        188,
+        -89,
+        932
+      ],
+      "leg": 3
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        380,
+        342,
+        976
+      ],
+      "leg": 3
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        380,
+        581,
+        1020
+      ],
+      "leg": 3
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        -4,
+        342,
+        1064
+      ],
+      "leg": 3
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        -4,
+        103,
+        1108
+      ],
+      "leg": 3
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        -51,
+        -89,
+        1152
+      ],
+      "leg": 3
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        444,
+        833,
+        1308
+      ],
+      "leg": 4
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        252,
+        402,
+        1352
+      ],
+      "leg": 4
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        252,
+        163,
+        1396
+      ],
+      "leg": 4
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        188,
+        -29,
+        1440
+      ],
+      "leg": 4
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        -68,
+        -29,
+        1484
+      ],
+      "leg": 4
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        188,
+        355,
+        1528
+      ],
+      "leg": 4
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        444,
+        355,
+        1572
+      ],
+      "leg": 4
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        252,
+        -93,
+        1616
+      ],
+      "leg": 4
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        124,
+        462,
+        1772
+      ],
+      "leg": 5
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        201,
+        654,
+        1819
+      ],
+      "leg": 5
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        431,
+        654,
+        1863
+      ],
+      "leg": 5
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        239,
+        232,
+        1907
+      ],
+      "leg": 5
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        239,
+        10,
+        1951
+      ],
+      "leg": 5
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        623,
+        232,
+        1995
+      ],
+      "leg": 5
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        623,
+        454,
+        2039
+      ],
+      "leg": 5
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        653,
+        646,
+        2083
+      ],
+      "leg": 5
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        175,
+        -182,
+        2347
+      ],
+      "leg": 6
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        367,
+        232,
+        2391
+      ],
+      "leg": 6
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        367,
+        531,
+        2327
+      ],
+      "leg": 6
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        397,
+        723,
+        2371
+      ],
+      "leg": 6
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        619,
+        723,
+        2415
+      ],
+      "leg": 6
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        397,
+        339,
+        2459
+      ],
+      "leg": 6
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        175,
+        339,
+        2503
+      ],
+      "leg": 6
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        367,
+        753,
+        2547
+      ],
+      "leg": 6
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        427,
+        275,
+        2811
+      ],
+      "leg": 7
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        397,
+        83,
+        2855
+      ],
+      "leg": 7
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        184,
+        83,
+        2899
+      ],
+      "leg": 7
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        376,
+        488,
+        2943
+      ],
+      "leg": 7
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        376,
+        787,
+        2879
+      ],
+      "leg": 7
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        -8,
+        574,
+        2923
+      ],
+      "leg": 7
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        -8,
+        361,
+        2967
+      ],
+      "leg": 7
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        -29,
+        169,
+        3011
+      ],
+      "leg": 7
+    }
+  ],
+  "constructs": [
+    "corner jump",
+    "drop-jump",
+    "ladder section"
+  ]
+}

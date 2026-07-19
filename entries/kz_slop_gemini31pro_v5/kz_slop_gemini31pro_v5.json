@@ -1,0 +1,278 @@
+{
+  "dataTimestamp": 0,
+  "formatVersion": 1,
+  "tracks": {
+    "main": {
+      "zones": {
+        "segments": [
+          {
+            "limitStartGroundSpeed": false,
+            "checkpointsRequired": true,
+            "checkpointsOrdered": true,
+            "checkpoints": [
+              {
+                "regions": [
+                  {
+                    "points": [
+                      [
+                        -128,
+                        -128
+                      ],
+                      [
+                        128,
+                        -128
+                      ],
+                      [
+                        128,
+                        128
+                      ],
+                      [
+                        -128,
+                        128
+                      ]
+                    ],
+                    "bottom": 0,
+                    "height": 128,
+                    "teleDestPos": [
+                      0,
+                      0,
+                      16
+                    ],
+                    "teleDestYaw": 0,
+                    "safeHeight": 0
+                  }
+                ]
+              },
+              {
+                "regions": [
+                  {
+                    "points": [
+                      [
+                        154,
+                        -401
+                      ],
+                      [
+                        666,
+                        -401
+                      ],
+                      [
+                        666,
+                        111
+                      ],
+                      [
+                        154,
+                        111
+                      ]
+                    ],
+                    "bottom": 464,
+                    "height": 128,
+                    "teleDestPos": [
+                      410,
+                      -145,
+                      480
+                    ],
+                    "teleDestYaw": 0,
+                    "safeHeight": 0
+                  }
+                ]
+              },
+              {
+                "regions": [
+                  {
+                    "points": [
+                      [
+                        410,
+                        86
+                      ],
+                      [
+                        922,
+                        86
+                      ],
+                      [
+                        922,
+                        598
+                      ],
+                      [
+                        410,
+                        598
+                      ]
+                    ],
+                    "bottom": 928,
+                    "height": 128,
+                    "teleDestPos": [
+                      666,
+                      342,
+                      944
+                    ],
+                    "teleDestYaw": 0,
+                    "safeHeight": 0
+                  }
+                ]
+              },
+              {
+                "regions": [
+                  {
+                    "points": [
+                      [
+                        -51,
+                        385
+                      ],
+                      [
+                        461,
+                        385
+                      ],
+                      [
+                        461,
+                        897
+                      ],
+                      [
+                        -51,
+                        897
+                      ]
+                    ],
+                    "bottom": 1392,
+                    "height": 128,
+                    "teleDestPos": [
+                      205,
+                      641,
+                      1408
+                    ],
+                    "teleDestYaw": 0,
+                    "safeHeight": 0
+                  }
+                ]
+              },
+              {
+                "regions": [
+                  {
+                    "points": [
+                      [
+                        -324,
+                        -93
+                      ],
+                      [
+                        188,
+                        -93
+                      ],
+                      [
+                        188,
+                        419
+                      ],
+                      [
+                        -324,
+                        419
+                      ]
+                    ],
+                    "bottom": 1964,
+                    "height": 128,
+                    "teleDestPos": [
+                      -68,
+                      163,
+                      1980
+                    ],
+                    "teleDestYaw": 0,
+                    "safeHeight": 0
+                  }
+                ]
+              },
+              {
+                "regions": [
+                  {
+                    "points": [
+                      [
+                        141,
+                        -246
+                      ],
+                      [
+                        653,
+                        -246
+                      ],
+                      [
+                        653,
+                        266
+                      ],
+                      [
+                        141,
+                        266
+                      ]
+                    ],
+                    "bottom": 2431,
+                    "height": 128,
+                    "teleDestPos": [
+                      397,
+                      10,
+                      2447
+                    ],
+                    "teleDestYaw": 0,
+                    "safeHeight": 0
+                  }
+                ]
+              },
+              {
+                "regions": [
+                  {
+                    "points": [
+                      [
+                        363,
+                        241
+                      ],
+                      [
+                        875,
+                        241
+                      ],
+                      [
+                        875,
+                        753
+                      ],
+                      [
+                        363,
+                        753
+                      ]
+                    ],
+                    "bottom": 2895,
+                    "height": 128,
+                    "teleDestPos": [
+                      619,
+                      497,
+                      2911
+                    ],
+                    "teleDestYaw": 0,
+                    "safeHeight": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "end": {
+          "regions": [
+            {
+              "points": [
+                [
+                  -29,
+                  531
+                ],
+                [
+                  483,
+                  531
+                ],
+                [
+                  483,
+                  1043
+                ],
+                [
+                  -29,
+                  1043
+                ]
+              ],
+              "bottom": 3359,
+              "height": 128
+            }
+          ]
+        }
+      },
+      "stagesEndAtStageStarts": true
+    }
+  },
+  "globalRegions": {}
+}
