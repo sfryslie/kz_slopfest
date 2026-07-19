@@ -12,7 +12,11 @@ better, it makes your run unscoreable.
    and scoring/ (read-only). Public engine/game documentation on the web is fine; other people's
    (or other agents') map source code is not. (Runs are cut from a template
    commit, so there's nothing else in-repo to find — don't go looking outside
-   it either.)
+   it either.) **This includes files you encounter in the shared Momentum
+   install**: other entries' build artifacts, shipped reference maps' VMFs or
+   zone JSONs, and stray debug files in `maps\` are all off-limits as inputs,
+   wherever they physically sit. The canonical zone JSON and golden brush in
+   TOOLCHAIN.md exist precisely so you never need them.
 2. **Don't touch the spec.** `SPEC.md`, `TOOLCHAIN.md`, `ASSETS.md`, `RULES.md`, and
    `scoring/` are frozen. If you think the spec is wrong or ambiguous, note it
    in your README under **Spec feedback** and make a reasonable call — don't

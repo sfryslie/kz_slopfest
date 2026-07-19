@@ -32,6 +32,11 @@ Install for testing:
 - `your_map.bsp` → `<MOM>\momentum\maps\`
 - `your_map.json` → `<MOM>\momentum\maps\zones\local\` (create the folder if missing)
 
+Copy **only** those two files. Never copy your `.vmf`, logs, or debug/probe
+maps into the shared install — a gen-4 run left its VMF source in `maps\` and a
+later agent found and read it, contaminating that run (see RULES.md #1: files
+you find in the shared install are not legal inputs).
+
 Verify in-game without a human watching:
 
 ```
@@ -72,11 +77,12 @@ and retry rather than hammering the shared install.
 1. **VMF plane winding:** the three points defining each brush face must wind
    **clockwise when viewed from outside** the brush. Get it wrong and vbsp
    silently strips all faces, then segfaults.
-2. **Every brush side needs `vertices_plus`:** zonemaker.exe requires the Strata
-   Hammer `vertices_plus` blocks on zone brush faces — the error when missing is
-   the unhelpful "Could not find bottom of zone brush". Wave-2 entries
-   (composer25) found the tools happier with `vertices_plus` on **all** brush
-   sides, not just zone brushes. Emit them everywhere from your generator.
+2. **Zone brushes need `vertices_plus`:** zonemaker.exe requires the Strata
+   Hammer `vertices_plus` blocks on **zone entity** brush faces — the error when
+   missing is the unhelpful "Could not find bottom of zone brush". World brushes
+   do **not** need them: a shipped gen-4 entry (sonnet5) compiled and zoned
+   clean with plane-only world solids. Emitting them everywhere is harmless if
+   your writer finds it simpler.
 3. **Timer comes from the JSON only:** the runtime ignores `zone_timer_*`
    entities baked into the BSP ("unknown entity type" console warnings are
    harmless). If the timer doesn't work, the problem is in the JSON zone file,
@@ -90,22 +96,177 @@ and retry rather than hammering the shared install.
    **coplanar with** the skybox hull; coplanar faces reintroduce portal leaks
    (wave 2, composer25). A solid enclosed start chamber merged into stage 1
    prevents spawn-point leaks in long procedural layouts.
-6. **Zone entity keys per the FGD:** if you bake zone entities into the VMF for
-   zonemaker to read, the momentum FGD keys are `stage_number` and
-   `restart_destination` — not `stage` / `restartdestination` (wave 2,
-   composer25). Remember the runtime timer still comes from the JSON only
-   (gotcha 3).
-7. **Zone JSON segment topology:** with `stagesEndAtStageStarts: true`, emit
-   **one segment per stage start** — six segments for a six-stage map — not a
-   separate start zone plus per-stage end markers. Each stage-start zone is that
-   stage's checkpoint, matching SPEC.md requirement 4 (wave 2, composer25;
-   stage-split console messages confirmed in-game by grok45).
-8. **vbsp material path warnings:** `gameinfo.txt` references
+6. **The real zone entity schema (reverse-engineered from the shipped
+   `zonemaker.exe`, verified by probe compiles — gen 4, sonnet5).** The public
+   docs are actively wrong here, in both directions:
+   - docs.momentum-mod.org's entity reference pages describe
+     `trigger_momentum_timer_*` entities with `zone_number`/`target` keys —
+     that is the **runtime** layer driven by the compiled zone JSON, *not* what
+     zonemaker parses. Using those classnames compiles fine and then zonemaker
+     fails with the unhelpful `There is no main track`.
+   - The public momentum-mod/game repo's `zonmaker.cpp` predates the 0.10.0
+     zone-system rewrite (Oct 2025) and does not match the shipped binary.
+     Do not treat it as ground truth.
+   - What zonemaker actually parses from the VMF: classnames
+     **`zone_timer_start` / `zone_timer_stage` / `zone_timer_checkpoint` /
+     `zone_timer_end`**, with keys **`track_number`** (`"0"` = main track),
+     **`safe_height`** (required — missing/invalid trips its own validation
+     error), **`restart_destination`** (the `targetname` of an
+     `info_teleport_destination` — not `target`, not `teleport_destination`),
+     plus **`stage_number`** on stages and **`checkpoint_number`** on
+     checkpoints. There is no `zone_number` key in the current schema.
+   - If you use staged topology: each non-final stage needs an explicit
+     `zone_timer_checkpoint` co-located with the *next* stage's
+     `zone_timer_stage` (same brush footprint), `stage_number` = the ending
+     stage, `checkpoint_number` `"2"` — else `Stage N does not have a
+     checkpoint to use as the stage track end`. And once any stage has two
+     checkpoints, `zone_timer_start`/`zone_timer_stage` need
+     `checkpoints_ordered` `"1"` or the runtime refuses the zones.
+   - SPEC generation 5 uses the simpler single-track checkpoint topology
+     (start + ordered `zone_timer_checkpoint`s + end); the same classnames and
+     keys apply. Remember the runtime timer still comes from the JSON only
+     (gotcha 3) — these entities exist for zonemaker to read.
+7. **vbsp material path warnings:** `gameinfo.txt` references
    `mount/hl2_dir.vpk` relative to the momentum folder while the VPK lives at
    `<MOM>\mount\`. The runtime mounts content fine, but vbsp can emit material
    resolution warnings depending on the compile-time search path (wave 2,
    grok45). Warnings on ASSETS.md-verified names are noise; warnings on other
    names usually mean the material really is missing — swap it.
+
+## Golden brush — a known-good VMF solid
+
+This exact solid (from a shipped gen-4 entry) went through vbsp, full vvis,
+full vrad, zonemaker, and an in-game load with zero errors. It is a 192×192×16
+platform whose top face sits at z=0. **Match this winding pattern exactly** —
+the three plane points on each face wind clockwise viewed from outside the
+brush. Two consecutive generations of entries died or stalled on getting this
+wrong from first principles; don't re-derive it, pattern-match it.
+
+```
+solid
+{
+	"id" "1006"
+	side
+	{
+		"id" "1000"
+		"plane" "(-96 96 0) (96 96 0) (96 -96 0)"
+		"material" "concrete/concretefloor002a"
+		"uaxis" "[1 0 0 0] 0.25"
+		"vaxis" "[0 -1 0 0] 0.25"
+		"rotation" "0"
+		"lightmapscale" "16"
+		"smoothing_groups" "0"
+	}
+	side
+	{
+		"id" "1001"
+		"plane" "(-96 -96 -16) (96 -96 -16) (96 96 -16)"
+		"material" "concrete/concretewall036a"
+		"uaxis" "[1 0 0 0] 0.25"
+		"vaxis" "[0 -1 0 0] 0.25"
+		"rotation" "0"
+		"lightmapscale" "16"
+		"smoothing_groups" "0"
+	}
+	side
+	{
+		"id" "1002"
+		"plane" "(-96 96 -16) (96 96 -16) (96 96 0)"
+		"material" "concrete/concretewall036a"
+		"uaxis" "[1 0 0 0] 0.25"
+		"vaxis" "[0 0 -1 0] 0.25"
+		"rotation" "0"
+		"lightmapscale" "16"
+		"smoothing_groups" "0"
+	}
+	side
+	{
+		"id" "1003"
+		"plane" "(-96 -96 0) (96 -96 0) (96 -96 -16)"
+		"material" "concrete/concretewall036a"
+		"uaxis" "[1 0 0 0] 0.25"
+		"vaxis" "[0 0 -1 0] 0.25"
+		"rotation" "0"
+		"lightmapscale" "16"
+		"smoothing_groups" "0"
+	}
+	side
+	{
+		"id" "1004"
+		"plane" "(96 -96 0) (96 96 0) (96 96 -16)"
+		"material" "concrete/concretewall036a"
+		"uaxis" "[0 1 0 0] 0.25"
+		"vaxis" "[0 0 -1 0] 0.25"
+		"rotation" "0"
+		"lightmapscale" "16"
+		"smoothing_groups" "0"
+	}
+	side
+	{
+		"id" "1005"
+		"plane" "(-96 -96 -16) (-96 96 -16) (-96 96 0)"
+		"material" "concrete/concretewall036a"
+		"uaxis" "[0 1 0 0] 0.25"
+		"vaxis" "[0 0 -1 0] 0.25"
+		"rotation" "0"
+		"lightmapscale" "16"
+		"smoothing_groups" "0"
+	}
+}
+```
+
+The pattern, face by face for an axis-aligned box spanning `(x1,y1,z1)` to
+`(x2,y2,z2)` with `x1<x2, y1<y2, z1<z2`:
+
+| Face | Three plane points |
+|---|---|
+| top (+z) | `(x1 y2 z2) (x2 y2 z2) (x2 y1 z2)` |
+| bottom (−z) | `(x1 y1 z1) (x2 y1 z1) (x2 y2 z1)` |
+| north (+y) | `(x1 y2 z1) (x2 y2 z1) (x2 y2 z2)` |
+| south (−y) | `(x1 y1 z2) (x2 y1 z2) (x2 y1 z1)` |
+| east (+x) | `(x2 y1 z2) (x2 y2 z2) (x2 y2 z1)` |
+| west (−x) | `(x1 y1 z1) (x1 y2 z1) (x1 y2 z2)` |
+
+## Canonical zone JSON — checkpoint topology
+
+The shape SPEC generation 5 requires, matching shipped reference maps
+(`formatVersion` 1): one main track, one segment, ordered checkpoints, an end
+zone. The first checkpoint is the start zone and carries the spawn
+(`teleDestPos`/`teleDestYaw`). `bottom` is the region's floor z; `points` are
+the region polygon's XY corners.
+
+```json
+{
+  "dataTimestamp": 0,
+  "formatVersion": 1,
+  "tracks": {
+    "main": {
+      "zones": {
+        "segments": [ {
+          "limitStartGroundSpeed": false,
+          "checkpointsRequired": true,
+          "checkpointsOrdered": true,
+          "checkpoints": [
+            { "regions": [ { "points": [[-128,-128],[128,-128],[128,128],[-128,128]],
+                "bottom": 0, "height": 196,
+                "teleDestPos": [0, 0, 0], "teleDestYaw": 90, "safeHeight": 0 } ] },
+            { "regions": [ { "points": [[-128,640],[128,640],[128,896],[-128,896]],
+                "bottom": 768, "height": 320 } ] }
+          ]
+        } ],
+        "end": { "regions": [ { "points": [[-64,1536],[64,1536],[64,1664],[-64,1664]],
+            "bottom": 1600, "height": 192 } ] }
+      },
+      "stagesEndAtStageStarts": true
+    }
+  },
+  "globalRegions": {}
+}
+```
+
+Add one `checkpoints` entry per floor (≥ 6 after the start for gen 5), each
+region generously covering the whole floor. Reference maps place checkpoint
+floors 768–960 u apart vertically.
 
 ## Movement model (Momentum climb mode — derive your gaps from this)
 

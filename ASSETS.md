@@ -86,7 +86,20 @@ before committing geometry.
 
 Use `prop_static` for non-gameplay scenery. Props must **not** block the required
 route or create walkable bypasses. Prefer props on ledges, in void space, or
-alongside the corridor — not on landing pads.
+alongside the corridor — never on landing pads or in jump corridors (SPEC
+requirement 11; a gen-4 entry shipped with props making four jumps impossible).
+
+**⚠ Many "loose object" models are physics-only and silently fail as
+`prop_static`.** vbsp reports `must be used on a dynamic entity (i.e.
+prop_physics)` and **deletes them from the map**. Confirmed physics-only (do
+not use as `prop_static`): `props_junk/wood_crate001a`,
+`props_junk/metalbucket02a`, `props_junk/trashbin01a`,
+`props_debris/concrete_chunk01a`, `props_debris/wood_chunk05b`,
+`props_wasteland/barricade002a`, `props_c17/oildrum001`. The pattern (gen-4,
+sonnet5): small pick-up-able junk ships physics-only; **structural and
+architectural models — trusses, pipes, scaffolding, ladders, lamps, rocks,
+trees, stalactites — are generally static-safe.** Probe-compile one instance of
+every model in your palette before committing to it.
 
 All paths below are under `models/` (omit `.mdl` in `model` key). Verified in
 `hl2_dir.vpk`.
@@ -102,7 +115,7 @@ All paths below are under `models/` (omit `.mdl` in `model` key). Verified in
 | **Train / canal** | `props_trainstation/ceiling_truss001a`, `props_canal/canal_bridge03a`, `props_canal/winch01` | ~99 / ~71 |
 | **Docks** | `props_docks/dockpole01a`, `props_docks/channelmarker02a` | ~49 |
 | **Rooftop** | `props_rooftop/scaffolding01a`, `props_rooftop/chimneypipe01a` | ~48 |
-| **Junk scatter** | `props_junk/wood_crate001a`, `props_junk/metalbucket02a`, `props_junk/trashbin01a` | ~129 |
+| **Junk scatter** | ⚠ mostly physics-only as `prop_static` — see warning above; probe-compile any candidate | ~129 |
 | **Combine** (sci-fi industrial) | `props_combine/combineinnerwall001a`, `props_combine/pipes01_single02c` | ~236 |
 
 ## Theme starter kits (suggested palettes)
@@ -121,8 +134,8 @@ Mix materials + props + sky. These are **examples**, not assignments.
 
 - Materials: `concrete/concretefloor001a`, `concrete/concretewall036a`,
   `metal/metalwall032a`, `brick/brickwall017a`
-- Props: `props_c17/truss03b`, `props_debris/concrete_chunk01a`,
-  `props_rooftop/scaffolding01a`, `props_junk/trashbin01a`
+- Props: `props_c17/truss03b`, `props_rooftop/scaffolding01a`,
+  `props_c17/metalladder002b`, `props_rooftop/chimneypipe01a`
 - Sky: `sky_urb01` or `sky_day02_03`
 
 ### Industrial / combine
