@@ -1,0 +1,129 @@
+Loading C:\Users\shfry\Documents\GitHub\kz_slopfest-gemini31pro\entries\kz_slop_gemini31pro_v5\kz_slop_gemini31pro_v5_probe.vmf
+Map revision 1
+fixing up env_cubemap materials on brush sides...
+ProcessBlock_Thread : 0...1...2...3...4...5...6...7...8...9...10 (0)
+ProcessBlock_Thread : 0...1...2...3...4...5...6...7...8...9...10 (0)
+Processing areas...
+done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\shfry\Documents\GitHub\kz_slopfest-gemini31pro\entries\kz_slop_gemini31pro_v5\kz_slop_gemini31pro_v5_probe.prt...
+Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Building Physics collision data...
+done (0) (10841 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 10 texinfos to 8
+Reduced 4 texdatas to 4 (90 bytes to 90)
+Writing C:\Users\shfry\Documents\GitHub\kz_slopfest-gemini31pro\entries\kz_slop_gemini31pro_v5\kz_slop_gemini31pro_v5_probe.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\shfry\documents\github\kz_slopfest-gemini31pro\entries\kz_slop_gemini31pro_v5\kz_slop_gemini31pro_v5_probe.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+24 threads
+reading C:\Users\shfry\Documents\GitHub\kz_slopfest-gemini31pro\entries\kz_slop_gemini31pro_v5\kz_slop_gemini31pro_v5_probe.bsp
+reading C:\Users\shfry\Documents\GitHub\kz_slopfest-gemini31pro\entries\kz_slop_gemini31pro_v5\kz_slop_gemini31pro_v5_probe.prt
+  18 portalclusters
+  41 numportals
+BasePortalVis : 0...1...2...3...4...5...6...7...8...9...10 (0)
+PortalFlow : 0...1...2...3...4...5...6...7...8...9...10 (0)
+Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 316
+Average clusters visible: 17
+Building PAS...
+Average clusters audible: 18
+visdatasize:256  compressed from 288
+writing C:\Users\shfry\Documents\GitHub\kz_slopfest-gemini31pro\entries\kz_slop_gemini31pro_v5\kz_slop_gemini31pro_v5_probe.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\shfry\documents\github\kz_slopfest-gemini31pro\entries\kz_slop_gemini31pro_v5\kz_slop_gemini31pro_v5_probe.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading C:\Users\shfry\Documents\GitHub\kz_slopfest-gemini31pro\entries\kz_slop_gemini31pro_v5\kz_slop_gemini31pro_v5_probe.bsp
+54 faces
+178346 square feet [25681920.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+54 patches before subdivision
+194 patches after subdivision
+2 direct lights
+BuildFacelights : 0...1...2...3...4...5...6...7...8...9...10 (0)
+BuildVisLeafs : 0...1...2...3...4...5...6...7...8...9...10 (0)
+transfers 218, max 20
+transfer lists:   0.0 megs
+GatherLight : 0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #1 added RGB(23, 22, 20)
+GatherLight : 0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #2 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+FinalLightFace : 0...1...2...3...4...5...6...7...8...9...10 (0)
+FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ThreadComputeLeafAmbient : 0...1...2...3...4...5...6...7...8...9...10 (0)
+Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs    Memory / Maxmem  Fullness 
+------------       ---------------    ---------------  -------- 
+models                   3/65536         144/3145728    ( 0.0%) 
+brushes                 10/131072        120/1572864    ( 0.0%) 
+brushsides              60/1310720       960/20971520   ( 0.0%) 
+planes                  66/1048576      1320/20971520   ( 0.0%) 
+vertexes                65/1048576       780/12582912   ( 0.0%) 
+nodes                   59/1048576      2832/50331648   ( 0.0%) 
+texinfos                 8/0             576/0          ( 0.0%) 
+texdata                  4/16384         128/524288     ( 0.0%) 
+dispinfos                0/262144          0/60817408   ( 0.0%) 
+disp_verts               0/0               0/0          ( 0.0%) 
+disp_tris                0/0               0/0          ( 0.0%) 
+disp_multiblend          0/0               0/0          ( 0.0%) 
+disp_lmsamples           0/0               0/0          ( 0.0%) 
+faces                   54/1048576      3888/75497472   ( 0.0%) 
+hdr faces               54/1048576      3888/75497472   ( 0.0%) 
+origfaces               30/1048576      2160/75497472   ( 0.0%) 
+facebrushes              0/0               0/0          ( 0.0%) 
+facebrushlists          54/0             432/0          ( 0.0%) 
+leaves                  63/1048576      3528/58720256   ( 0.0%) 
+leaffaces               74/1048576       296/4194304    ( 0.0%) 
+leafbrushes             24/1048576        96/4194304    ( 0.0%) 
+areas                    2/65536          16/524288     ( 0.0%) 
+surfedges              336/8192000      1344/32768000   ( 0.0%) 
+edges                  169/4096000      1352/32768000   ( 0.0%) 
+LDR worldlights          0/0               0/0          ( 0.0%) 
+HDR worldlights          2/0             200/0          ( 0.0%) 
+leafwaterdata            0/32768           0/393216     ( 0.0%) 
+waterstrips              0/1048576         0/20971520   ( 0.0%) 
+waterverts               0/1048576         0/12582912   ( 0.0%) 
+waterindices             0/1048576         0/4194304    ( 0.0%) 
+cubemapsamples           0/16384           0/262144     ( 0.0%) 
+overlays              [variable]           0/0          ( 0.0%) 
+overlaytrans             0/16384           0/268435456  ( 0.0%) 
+colorvars                0/16777214        0/1073741696 ( 0.0%) 
+LDR lightdata         [variable]           0/0          ( 0.0%) 
+HDR lightdata         [variable]        7912/0          ( 0.0%) 
+visdata               [variable]         256/268435456  ( 0.0%) 
+entdata               [variable]         741/393216     ( 0.2%) 
+LDR ambient table       63/1048576       504/8388608    ( 0.0%) 
+HDR ambient table       63/1048576       504/8388608    ( 0.0%) 
+LDR leaf ambient        63/1048576      1764/29360128   ( 0.0%) 
+HDR leaf ambient       121/1048576      3388/29360128   ( 0.0%) 
+occluders                0/0               0/0          ( 0.0%) 
+occluder polygons        0/0               0/0          ( 0.0%) 
+occluder vert ind        0/0               0/0          ( 0.0%) 
+detail props          [variable]           1/12         ( 8.3%) 
+static props          [variable]           1/12         ( 8.3%) 
+pakfile               [variable]       74510/0          ( 0.0%) 
+physics               [variable]       10841/4194304    ( 0.3%) 
+physics terrain       [variable]           4/1048576    ( 0.0%) 
+
+Level flags = 4000007c
+
+Total triangle count: 108
+Writing C:\Users\shfry\Documents\GitHub\kz_slopfest-gemini31pro\entries\kz_slop_gemini31pro_v5\kz_slop_gemini31pro_v5_probe.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\shfry\documents\github\kz_slopfest-gemini31pro\entries\kz_slop_gemini31pro_v5\kz_slop_gemini31pro_v5_probe.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
