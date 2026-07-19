@@ -1,0 +1,34 @@
+{
+    "formatVersion": 1,
+    "dataTimestamp": 1784444561,
+    "maxVelocity": 0.0,
+    "tracks": {
+        "main": {
+            "zones": {
+                "segments": [{
+                        "limitStartGroundSpeed": true,
+                        "checkpointsRequired": false,
+                        "checkpointsOrdered": false,
+                        "checkpoints": [{
+                                "regions": [{
+                                        "points": [[-128.0, -128.0], [128.0, -128.0], [128.0, 128.0], [-128.0, 128.0]],
+                                        "bottom": 0.0,
+                                        "height": 192.0,
+                                        "teleDestTargetname": "spawn_dest",
+                                        "safeHeight": 0.0
+                                    }]
+                            }]
+                    }],
+                "end": {
+                    "regions": [{
+                            "points": [[-128.0, 256.0], [128.0, 256.0], [128.0, 512.0], [-128.0, 512.0]],
+                            "bottom": 0.0,
+                            "height": 192.0
+                        }]
+                }
+            },
+            "stagesEndAtStageStarts": false,
+            "bhopEnabled": false
+        }
+    }
+}

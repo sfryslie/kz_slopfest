@@ -1,0 +1,22 @@
+{
+  "map": "kz_slop_gemini35flash_v5",
+  "start": {
+    "pos": [
+      0,
+      0,
+      16
+    ],
+    "yaw": 90
+  },
+  "end": {
+    "pos": [
+      0,
+      384,
+      16
+    ]
+  },
+  "checkpoints": [],
+  "jumps": [],
+  "props": [],
+  "constructs": []
+}
