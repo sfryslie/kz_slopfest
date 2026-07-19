@@ -6,13 +6,20 @@ parity is what makes entries comparable.
 
 ## Operator procedure
 
-1. Cut a worktree from the current template commit (see SPEC.md generation table;
-   generation **3**: `1a0c5a6`; generation **4**: `15cd23a`; generation **5**:
-   `25588d3`):
+1. Cut a **clean-room clone** of the current template commit (see SPEC.md
+   generation table; generation **3**: `1a0c5a6`; generation **4**: `15cd23a`;
+   generation **5**: `25588d3`). A clone — not a worktree — so the run's object
+   store contains *only* the template commit: no other entry branches, no
+   history, nothing to `git show` even deliberately. (Gen ≤4 runs used
+   worktrees, which share refs with the main repo; isolation was behavioral
+   only, and one gen-4 run was contaminated through a related filesystem gap.)
 
    ```
-   cd C:\Users\shfry\Documents\GitHub\kz_slopfest
-   git worktree add ..\kz_slopfest-<name> <template-hash> -b entry/<name>-v<gen>
+   mkdir ..\kz_slopfest-<name>
+   cd ..\kz_slopfest-<name>
+   git init
+   git fetch C:\Users\shfry\Documents\GitHub\kz_slopfest <template-hash> --depth 1
+   git checkout FETCH_HEAD -b entry/<name>-v<gen>
    ```
 
 2. `<name>` is the versioned short name per SPEC.md — lowercase, no dots,
@@ -27,7 +34,18 @@ parity is what makes entries comparable.
    tally one intervention. The operator's tally overrides the agent's
    self-report.
 7. When it finishes: note end time, record whatever usage/cost the harness
-   reports, and add the row to `scoring/results.md`. Push the entry branch.
+   reports, and add the row to `scoring/results.md`. Then pull the entry branch
+   back into the main repo and push it:
+
+   ```
+   cd C:\Users\shfry\Documents\GitHub\kz_slopfest
+   git fetch ..\kz_slopfest-<name> entry/<name>-v<gen>:entry/<name>-v<gen>
+   git push origin entry/<name>-v<gen>
+   ```
+
+   If the repo is public, merge same-generation entries (PRs into main) only
+   **after the whole wave completes** — within-generation peeking is the
+   scientifically fatal kind.
 
 ## The prompt
 
@@ -44,10 +62,10 @@ full. Then produce your entry exactly as the spec directs. Follow the rules
 precisely, including the plan-first requirement and the honesty clauses.
 
 Practical notes:
-- You are on git branch entry/<name>-v<gen> in a dedicated worktree. Commit your
-  work as you go on this branch. Do NOT push, and do not touch anything outside
-  your worktree except the Momentum Mod install paths that TOOLCHAIN.md tells
-  you to copy build artifacts into.
+- You are on git branch entry/<name>-v<gen> in a dedicated clean-room clone.
+  Commit your work as you go on this branch. Do NOT push (there is no remote),
+  and do not touch anything outside this folder except the Momentum Mod install
+  paths that TOOLCHAIN.md tells you to copy build artifacts into.
 - The Momentum install may be shared with other agents on this machine. Follow
   TOOLCHAIN.md "Shared install and parallel runs": run full vvis/vrad one agent
   at a time; wait 2-3 minutes and retry if compiles OOM or the game won't launch.
