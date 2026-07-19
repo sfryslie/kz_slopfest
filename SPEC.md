@@ -93,7 +93,14 @@ by bumping the map version.
    250 u/s (precision default), ~275 u/s (only with a straight unobstructed
    approach), 380 u/s (optional shortcut routes only). The declared speed goes
    in `route.json` per jump; the validator recomputes the physics and rejects
-   drift. One impossible required jump fails the entire entry.
+   drift. **Vertical rises get their own margin**: a required jump may rise at
+   most **48 u** (~84% of the 57 u apex — a rise at the apex has zero margin
+   even when the airtime formula says otherwise; the gen-4 playtest found two
+   shipped jumps over this line). Rises of 49–56 u are legal only as declared
+   crouch-jumps (`"crouch": true` in `route.json`; budget computed on the
+   66 u / 325 u/s crouch model, and treat it as a precision move). Anything
+   higher on the required route is impossible. One impossible required jump
+   fails the entire entry.
 5. **Timer and checkpoints.** A valid zone JSON: **one main track, a single
    segment** with **ordered checkpoints** (one per floor, matching requirement
    2) and an end zone — the topology shipped reference maps use. The start zone
@@ -136,8 +143,26 @@ by bumping the map version.
 12. **Mechanical variety.** Include at least **3 distinct movement constructs**
     from this menu, named in PLAN.md and identifiable in-game: ladder section,
     crouch tunnel, drop-jump, uphill hop chain, tightrope / rail walk,
+    **corner jump** (a 90° or U-turn jump around a climbed obstacle),
     180°-turn jump, pillar weave, wall gap. Flat same-height gap jumps
     arranged in a zigzag do not count as variety.
+
+### Design notes for fun (judged, not gated)
+
+Gen-4 playtesting found what actually plays well; none of this is a gate, all
+of it moves the Layer 1 Fun score:
+
+- **Corner rhythm.** The most fun jumps in playtests were 90° and U-turn jumps
+  around the corner of a climbed obstacle — they turn raw gaps into momentum
+  and rhythm. Requirement 12's corner-jump construct exists because of this;
+  use it more than once if it suits the structure.
+- **Discovery beats.** Arriving on a new floor and taking a second to scan for
+  the *next* hold is a pleasure — not every jump needs to be signposted.
+  Budget a couple of these moments. But never let discovery become ambiguity
+  with stakes: if a player could plausibly commit to the *wrong* platform and
+  fall for it, mark the right one (a lamp, a prop cluster, a material accent).
+- **The view down.** Checkpoint floors with an open sightline back down the
+  structure are the reward for climbing. Don't wall in every floor.
 
 ## Route manifest — `route.json`
 
@@ -155,7 +180,7 @@ to, where leg 1 runs from the start zone to checkpoint 1):
       "index": 1, "leg": 1,
       "from": [x, y, z], "to": [x, y, z],
       "gap": 150.0, "dz": 0.0,
-      "assumedSpeed": 250, "fraction": 0.62,
+      "assumedSpeed": 250, "fraction": 0.62, "crouch": false,
       "heading": "N",
       "landing": [96, 96]
   } ],

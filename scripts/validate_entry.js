@@ -24,15 +24,16 @@ const MIN_HEADING_CHANGES = 2;
 const MIN_CONSTRUCTS = 3;
 const ALLOWED_SPEEDS = [250, 275, 380];
 const CONSTRUCT_MENU = ["ladder", "crouch tunnel", "drop-jump", "uphill hop chain",
-  "tightrope", "rail walk", "180", "pillar weave", "wall gap"];
+  "tightrope", "rail walk", "corner", "180", "pillar weave", "wall gap"];
 
 // --- movement model (TOOLCHAIN.md) ---
-const G = 800, APEX = 57, BBOX = 32;
-const V_TAKEOFF = Math.sqrt(2 * G * APEX); // ~302
-function maxGap(dz, v) {
-  const disc = V_TAKEOFF * V_TAKEOFF - 2 * G * dz;
-  if (disc <= 0) return NaN; // landing above jump apex: not clearable by normal jump
-  const airTime = (V_TAKEOFF + Math.sqrt(disc)) / G;
+const G = 800, APEX = 57, APEX_CROUCH = 66, BBOX = 32;
+const RISE_CAP = 48, RISE_CAP_CROUCH = 56; // SPEC req 4: rises need margin too
+function maxGap(dz, v, apex) {
+  const vt = Math.sqrt(2 * G * apex);
+  const disc = vt * vt - 2 * G * dz;
+  if (disc <= 0) return NaN; // landing above jump apex: not clearable
+  const airTime = (vt + Math.sqrt(disc)) / G;
   return v * airTime + BBOX;
 }
 
@@ -84,7 +85,13 @@ for (const j of jumps) {
   const dz = j.dz !== undefined ? j.dz : j.to[2] - j.from[2];
   const dx = j.to[0] - j.from[0], dy = j.to[1] - j.from[1];
   const gap = j.gap !== undefined ? j.gap : Math.hypot(dx, dy);
-  const budget = maxGap(dz, j.assumedSpeed);
+  const riseCap = j.crouch ? RISE_CAP_CROUCH : RISE_CAP;
+  if (dz > riseCap) {
+    fail(`jump ${j.index}: rise ${dz}u > ${riseCap}u cap${j.crouch ? " (crouch)" : " (declare crouch for 49-56u, req 4)"} — gen 4 shipped two over-height jumps this way`);
+    continue;
+  }
+  if (j.crouch) warn(`jump ${j.index} is a declared crouch-jump — precision move, keep surrounding jumps easy`);
+  const budget = maxGap(dz, j.assumedSpeed, j.crouch ? APEX_CROUCH : APEX);
   if (isNaN(budget)) { fail(`jump ${j.index}: dz ${dz} exceeds jump apex — impossible (req 4)`); continue; }
   const frac = gap / budget;
   if (frac > MAX_FRACTION) fail(`jump ${j.index}: ${(frac * 100).toFixed(1)}% of budget > ${MAX_FRACTION * 100}% (gap ${gap.toFixed(0)}, dz ${dz}, v ${j.assumedSpeed})`);
