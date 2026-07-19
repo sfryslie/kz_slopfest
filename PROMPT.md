@@ -73,6 +73,9 @@ Practical notes:
 - The Momentum install may be shared with other agents on this machine. Follow
   TOOLCHAIN.md "Shared install and parallel runs": run full vvis/vrad one agent
   at a time; wait 2-3 minutes and retry if compiles OOM or the game won't launch.
+- Run long compiles (vvis/vrad) synchronously in your shell tool with a generous
+  timeout and wait for them to return. Do not end your turn while a compile is
+  in flight — in most harnesses a detached OS process will never notify you.
 - You may launch the game windowed to verify, per RULES.md #6. Prefer -novid
   -windowed and close the game when done.
 - When you are finished, report back: whether every acceptance gate in SPEC.md
