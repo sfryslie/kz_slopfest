@@ -6,21 +6,25 @@ parity is what makes entries comparable.
 
 ## Operator procedure
 
-1. Cut a **clean-room clone** of the current template commit (see SPEC.md
-   generation table; generation **3**: `1a0c5a6`; generation **4**: `15cd23a`;
-   generation **5**: `25588d3`). A clone — not a worktree — so the run's object
-   store contains *only* the template commit: no other entry branches, no
-   history, nothing to `git show` even deliberately. (Gen ≤4 runs used
-   worktrees, which share refs with the main repo; isolation was behavioral
-   only, and one gen-4 run was contaminated through a related filesystem gap.)
+1. Cut a **clean-room clone** of the current template commit. Each template
+   commit is tagged `template-gen<g>` in the main repo (gen 3: `1a0c5a6`,
+   gen 4: `15cd23a`, gen 5: `25588d3`; see SPEC.md generation table). A clone —
+   not a worktree — so the run's object store contains *only* the template
+   commit: no other entry branches, no history, nothing to `git show` even
+   deliberately. (Gen ≤4 runs used worktrees, which share refs with the main
+   repo; isolation was behavioral only, and one gen-4 run was contaminated
+   through a related filesystem gap.)
 
    ```
    mkdir ..\kz_slopfest-<name>
    cd ..\kz_slopfest-<name>
    git init
-   git fetch C:\Users\shfry\Documents\GitHub\kz_slopfest <template-hash> --depth 1
+   git fetch C:\Users\shfry\Documents\GitHub\kz_slopfest template-gen<gen> --depth 1
    git checkout FETCH_HEAD -b entry/<name>-v<gen>
    ```
+
+   Verify isolation before launching: `git log --all --oneline` inside the
+   clone must show exactly one commit.
 
 2. `<name>` is the versioned short name per SPEC.md — lowercase, no dots,
    includes the model version (`gemini3pro`, `gpt5codex`, `grok45`, `composer25`).
