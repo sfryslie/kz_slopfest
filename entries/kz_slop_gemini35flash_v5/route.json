@@ -10,13 +10,1605 @@
   },
   "end": {
     "pos": [
-      0,
-      384,
-      16
+      194,
+      1178,
+      4216
     ]
   },
-  "checkpoints": [],
-  "jumps": [],
-  "props": [],
-  "constructs": []
+  "checkpoints": [
+    {
+      "index": 1,
+      "pos": [
+        199,
+        1339,
+        616
+      ],
+      "regionSize": [
+        256,
+        256
+      ]
+    },
+    {
+      "index": 2,
+      "pos": [
+        -13,
+        -2,
+        1216
+      ],
+      "regionSize": [
+        256,
+        256
+      ]
+    },
+    {
+      "index": 3,
+      "pos": [
+        210,
+        1396,
+        1816
+      ],
+      "regionSize": [
+        256,
+        256
+      ]
+    },
+    {
+      "index": 4,
+      "pos": [
+        -25,
+        -59,
+        2416
+      ],
+      "regionSize": [
+        256,
+        256
+      ]
+    },
+    {
+      "index": 5,
+      "pos": [
+        223,
+        1377,
+        3016
+      ],
+      "regionSize": [
+        256,
+        256
+      ]
+    },
+    {
+      "index": 6,
+      "pos": [
+        -18,
+        -112,
+        3616
+      ],
+      "regionSize": [
+        256,
+        256
+      ]
+    }
+  ],
+  "jumps": [
+    {
+      "index": 1,
+      "leg": 1,
+      "from": [
+        0,
+        192,
+        16
+      ],
+      "to": [
+        0,
+        277,
+        48
+      ],
+      "gap": 84.993,
+      "dz": 32,
+      "assumedSpeed": 250,
+      "fraction": 0.45,
+      "crouch": false,
+      "heading": "N",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 2,
+      "leg": 1,
+      "from": [
+        64,
+        341,
+        48
+      ],
+      "to": [
+        151,
+        341,
+        80
+      ],
+      "gap": 86.882,
+      "dz": 32,
+      "assumedSpeed": 250,
+      "fraction": 0.46,
+      "crouch": false,
+      "heading": "E",
+      "landing": [
+        96,
+        96
+      ]
+    },
+    {
+      "index": 3,
+      "leg": 1,
+      "from": [
+        199,
+        389,
+        80
+      ],
+      "to": [
+        199,
+        478,
+        112
+      ],
+      "gap": 88.77,
+      "dz": 32,
+      "assumedSpeed": 250,
+      "fraction": 0.47,
+      "crouch": false,
+      "heading": "N",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 4,
+      "leg": 1,
+      "from": [
+        199,
+        710,
+        520
+      ],
+      "to": [
+        199,
+        800,
+        552
+      ],
+      "gap": 90.659,
+      "dz": 32,
+      "assumedSpeed": 250,
+      "fraction": 0.48,
+      "crouch": false,
+      "heading": "N",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 5,
+      "leg": 1,
+      "from": [
+        199,
+        928,
+        552
+      ],
+      "to": [
+        199,
+        1021,
+        584
+      ],
+      "gap": 92.548,
+      "dz": 32,
+      "assumedSpeed": 250,
+      "fraction": 0.49,
+      "crouch": false,
+      "heading": "N",
+      "landing": [
+        96,
+        96
+      ]
+    },
+    {
+      "index": 6,
+      "leg": 1,
+      "from": [
+        199,
+        1117,
+        584
+      ],
+      "to": [
+        199,
+        1211,
+        616
+      ],
+      "gap": 94.436,
+      "dz": 32,
+      "assumedSpeed": 250,
+      "fraction": 0.5,
+      "crouch": false,
+      "heading": "N",
+      "landing": [
+        256,
+        256
+      ]
+    },
+    {
+      "index": 7,
+      "leg": 2,
+      "from": [
+        199,
+        1211,
+        616
+      ],
+      "to": [
+        199,
+        1113,
+        648
+      ],
+      "gap": 98.214,
+      "dz": 32,
+      "assumedSpeed": 250,
+      "fraction": 0.52,
+      "crouch": false,
+      "heading": "S",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 8,
+      "leg": 2,
+      "from": [
+        135,
+        1049,
+        648
+      ],
+      "to": [
+        35,
+        1049,
+        680
+      ],
+      "gap": 100.103,
+      "dz": 32,
+      "assumedSpeed": 250,
+      "fraction": 0.53,
+      "crouch": false,
+      "heading": "W",
+      "landing": [
+        96,
+        96
+      ]
+    },
+    {
+      "index": 9,
+      "leg": 2,
+      "from": [
+        -13,
+        1001,
+        680
+      ],
+      "to": [
+        -13,
+        899,
+        712
+      ],
+      "gap": 101.991,
+      "dz": 32,
+      "assumedSpeed": 250,
+      "fraction": 0.54,
+      "crouch": false,
+      "heading": "S",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 10,
+      "leg": 2,
+      "from": [
+        -13,
+        667,
+        1120
+      ],
+      "to": [
+        -13,
+        563,
+        1152
+      ],
+      "gap": 103.88,
+      "dz": 32,
+      "assumedSpeed": 250,
+      "fraction": 0.55,
+      "crouch": false,
+      "heading": "S",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 11,
+      "leg": 2,
+      "from": [
+        -13,
+        435,
+        1152
+      ],
+      "to": [
+        -13,
+        330,
+        1184
+      ],
+      "gap": 105.769,
+      "dz": 32,
+      "assumedSpeed": 250,
+      "fraction": 0.56,
+      "crouch": false,
+      "heading": "S",
+      "landing": [
+        96,
+        96
+      ]
+    },
+    {
+      "index": 12,
+      "leg": 2,
+      "from": [
+        -13,
+        234,
+        1184
+      ],
+      "to": [
+        -13,
+        126,
+        1216
+      ],
+      "gap": 107.658,
+      "dz": 32,
+      "assumedSpeed": 250,
+      "fraction": 0.57,
+      "crouch": false,
+      "heading": "S",
+      "landing": [
+        256,
+        256
+      ]
+    },
+    {
+      "index": 13,
+      "leg": 3,
+      "from": [
+        -13,
+        126,
+        1216
+      ],
+      "to": [
+        -13,
+        235,
+        1248
+      ],
+      "gap": 109.546,
+      "dz": 32,
+      "assumedSpeed": 250,
+      "fraction": 0.58,
+      "crouch": false,
+      "heading": "N",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 14,
+      "leg": 3,
+      "from": [
+        51,
+        299,
+        1248
+      ],
+      "to": [
+        162,
+        299,
+        1280
+      ],
+      "gap": 111.435,
+      "dz": 32,
+      "assumedSpeed": 250,
+      "fraction": 0.59,
+      "crouch": false,
+      "heading": "E",
+      "landing": [
+        96,
+        96
+      ]
+    },
+    {
+      "index": 15,
+      "leg": 3,
+      "from": [
+        210,
+        347,
+        1280
+      ],
+      "to": [
+        210,
+        461,
+        1312
+      ],
+      "gap": 113.324,
+      "dz": 32,
+      "assumedSpeed": 250,
+      "fraction": 0.6,
+      "crouch": false,
+      "heading": "N",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 16,
+      "leg": 3,
+      "from": [
+        210,
+        693,
+        1720
+      ],
+      "to": [
+        210,
+        808,
+        1752
+      ],
+      "gap": 115.212,
+      "dz": 32,
+      "assumedSpeed": 250,
+      "fraction": 0.61,
+      "crouch": false,
+      "heading": "N",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 17,
+      "leg": 3,
+      "from": [
+        210,
+        936,
+        1752
+      ],
+      "to": [
+        210,
+        1053,
+        1784
+      ],
+      "gap": 117.101,
+      "dz": 32,
+      "assumedSpeed": 250,
+      "fraction": 0.62,
+      "crouch": false,
+      "heading": "N",
+      "landing": [
+        96,
+        96
+      ]
+    },
+    {
+      "index": 18,
+      "leg": 3,
+      "from": [
+        210,
+        1149,
+        1784
+      ],
+      "to": [
+        210,
+        1268,
+        1816
+      ],
+      "gap": 118.99,
+      "dz": 32,
+      "assumedSpeed": 250,
+      "fraction": 0.63,
+      "crouch": false,
+      "heading": "N",
+      "landing": [
+        256,
+        256
+      ]
+    },
+    {
+      "index": 19,
+      "leg": 4,
+      "from": [
+        210,
+        1268,
+        1816
+      ],
+      "to": [
+        210,
+        1147,
+        1848
+      ],
+      "gap": 120.879,
+      "dz": 32,
+      "assumedSpeed": 250,
+      "fraction": 0.64,
+      "crouch": false,
+      "heading": "S",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 20,
+      "leg": 4,
+      "from": [
+        146,
+        1083,
+        1848
+      ],
+      "to": [
+        23,
+        1083,
+        1880
+      ],
+      "gap": 122.767,
+      "dz": 32,
+      "assumedSpeed": 250,
+      "fraction": 0.65,
+      "crouch": false,
+      "heading": "W",
+      "landing": [
+        96,
+        96
+      ]
+    },
+    {
+      "index": 21,
+      "leg": 4,
+      "from": [
+        -25,
+        1035,
+        1880
+      ],
+      "to": [
+        -25,
+        911,
+        1912
+      ],
+      "gap": 124.656,
+      "dz": 32,
+      "assumedSpeed": 250,
+      "fraction": 0.66,
+      "crouch": false,
+      "heading": "S",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 22,
+      "leg": 4,
+      "from": [
+        -25,
+        679,
+        2320
+      ],
+      "to": [
+        -25,
+        552,
+        2352
+      ],
+      "gap": 126.545,
+      "dz": 32,
+      "assumedSpeed": 250,
+      "fraction": 0.67,
+      "crouch": false,
+      "heading": "S",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 23,
+      "leg": 4,
+      "from": [
+        -25,
+        424,
+        2352
+      ],
+      "to": [
+        -25,
+        296,
+        2384
+      ],
+      "gap": 128.434,
+      "dz": 32,
+      "assumedSpeed": 250,
+      "fraction": 0.68,
+      "crouch": false,
+      "heading": "S",
+      "landing": [
+        96,
+        96
+      ]
+    },
+    {
+      "index": 24,
+      "leg": 4,
+      "from": [
+        -25,
+        200,
+        2384
+      ],
+      "to": [
+        -25,
+        69,
+        2416
+      ],
+      "gap": 130.322,
+      "dz": 32,
+      "assumedSpeed": 250,
+      "fraction": 0.69,
+      "crouch": false,
+      "heading": "S",
+      "landing": [
+        256,
+        256
+      ]
+    },
+    {
+      "index": 25,
+      "leg": 5,
+      "from": [
+        -25,
+        69,
+        2416
+      ],
+      "to": [
+        -25,
+        201,
+        2448
+      ],
+      "gap": 132.211,
+      "dz": 32,
+      "assumedSpeed": 250,
+      "fraction": 0.7,
+      "crouch": false,
+      "heading": "N",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 26,
+      "leg": 5,
+      "from": [
+        39,
+        265,
+        2448
+      ],
+      "to": [
+        175,
+        265,
+        2480
+      ],
+      "gap": 135.989,
+      "dz": 32,
+      "assumedSpeed": 250,
+      "fraction": 0.72,
+      "crouch": false,
+      "heading": "E",
+      "landing": [
+        96,
+        96
+      ]
+    },
+    {
+      "index": 27,
+      "leg": 5,
+      "from": [
+        223,
+        313,
+        2480
+      ],
+      "to": [
+        223,
+        468,
+        2512
+      ],
+      "gap": 154.876,
+      "dz": 32,
+      "assumedSpeed": 250,
+      "fraction": 0.82,
+      "crouch": false,
+      "heading": "N",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 28,
+      "leg": 5,
+      "from": [
+        223,
+        700,
+        2920
+      ],
+      "to": [
+        223,
+        795,
+        2952
+      ],
+      "gap": 94.436,
+      "dz": 32,
+      "assumedSpeed": 250,
+      "fraction": 0.5,
+      "crouch": false,
+      "heading": "N",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 29,
+      "leg": 5,
+      "from": [
+        223,
+        923,
+        2952
+      ],
+      "to": [
+        223,
+        1021,
+        2984
+      ],
+      "gap": 98.214,
+      "dz": 32,
+      "assumedSpeed": 250,
+      "fraction": 0.52,
+      "crouch": false,
+      "heading": "N",
+      "landing": [
+        96,
+        96
+      ]
+    },
+    {
+      "index": 30,
+      "leg": 5,
+      "from": [
+        223,
+        1117,
+        2984
+      ],
+      "to": [
+        223,
+        1249,
+        3016
+      ],
+      "gap": 132.211,
+      "dz": 32,
+      "assumedSpeed": 250,
+      "fraction": 0.7,
+      "crouch": false,
+      "heading": "N",
+      "landing": [
+        256,
+        256
+      ]
+    },
+    {
+      "index": 31,
+      "leg": 6,
+      "from": [
+        223,
+        1249,
+        3016
+      ],
+      "to": [
+        223,
+        1121,
+        3056
+      ],
+      "gap": 128.096,
+      "dz": 40,
+      "assumedSpeed": 250,
+      "fraction": 0.72,
+      "crouch": false,
+      "heading": "S",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 32,
+      "leg": 6,
+      "from": [
+        159,
+        1057,
+        3056
+      ],
+      "to": [
+        30,
+        1057,
+        3096
+      ],
+      "gap": 129.876,
+      "dz": 40,
+      "assumedSpeed": 250,
+      "fraction": 0.73,
+      "crouch": false,
+      "heading": "W",
+      "landing": [
+        96,
+        96
+      ]
+    },
+    {
+      "index": 33,
+      "leg": 6,
+      "from": [
+        -18,
+        1009,
+        3096
+      ],
+      "to": [
+        -18,
+        877,
+        3136
+      ],
+      "gap": 131.655,
+      "dz": 40,
+      "assumedSpeed": 250,
+      "fraction": 0.74,
+      "crouch": false,
+      "heading": "S",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 34,
+      "leg": 6,
+      "from": [
+        -18,
+        645,
+        3496
+      ],
+      "to": [
+        -18,
+        512,
+        3536
+      ],
+      "gap": 133.434,
+      "dz": 40,
+      "assumedSpeed": 250,
+      "fraction": 0.75,
+      "crouch": false,
+      "heading": "S",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 35,
+      "leg": 6,
+      "from": [
+        -18,
+        384,
+        3536
+      ],
+      "to": [
+        -18,
+        249,
+        3576
+      ],
+      "gap": 135.213,
+      "dz": 40,
+      "assumedSpeed": 250,
+      "fraction": 0.76,
+      "crouch": false,
+      "heading": "S",
+      "landing": [
+        96,
+        96
+      ]
+    },
+    {
+      "index": 36,
+      "leg": 6,
+      "from": [
+        -18,
+        153,
+        3576
+      ],
+      "to": [
+        -18,
+        16,
+        3616
+      ],
+      "gap": 136.992,
+      "dz": 40,
+      "assumedSpeed": 250,
+      "fraction": 0.77,
+      "crouch": false,
+      "heading": "S",
+      "landing": [
+        256,
+        256
+      ]
+    },
+    {
+      "index": 37,
+      "leg": 7,
+      "from": [
+        -18,
+        16,
+        3616
+      ],
+      "to": [
+        -18,
+        120,
+        3648
+      ],
+      "gap": 103.88,
+      "dz": 32,
+      "assumedSpeed": 250,
+      "fraction": 0.55,
+      "crouch": false,
+      "heading": "N",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 38,
+      "leg": 7,
+      "from": [
+        46,
+        184,
+        3648
+      ],
+      "to": [
+        146,
+        184,
+        3680
+      ],
+      "gap": 100.103,
+      "dz": 32,
+      "assumedSpeed": 250,
+      "fraction": 0.53,
+      "crouch": false,
+      "heading": "E",
+      "landing": [
+        96,
+        96
+      ]
+    },
+    {
+      "index": 39,
+      "leg": 7,
+      "from": [
+        194,
+        232,
+        3680
+      ],
+      "to": [
+        194,
+        328,
+        3712
+      ],
+      "gap": 96.325,
+      "dz": 32,
+      "assumedSpeed": 250,
+      "fraction": 0.51,
+      "crouch": false,
+      "heading": "N",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 40,
+      "leg": 7,
+      "from": [
+        194,
+        560,
+        4120
+      ],
+      "to": [
+        194,
+        653,
+        4152
+      ],
+      "gap": 92.548,
+      "dz": 32,
+      "assumedSpeed": 250,
+      "fraction": 0.49,
+      "crouch": false,
+      "heading": "N",
+      "landing": [
+        128,
+        128
+      ]
+    },
+    {
+      "index": 41,
+      "leg": 7,
+      "from": [
+        194,
+        781,
+        4152
+      ],
+      "to": [
+        194,
+        869,
+        4184
+      ],
+      "gap": 88.77,
+      "dz": 32,
+      "assumedSpeed": 250,
+      "fraction": 0.47,
+      "crouch": false,
+      "heading": "N",
+      "landing": [
+        96,
+        96
+      ]
+    },
+    {
+      "index": 42,
+      "leg": 7,
+      "from": [
+        194,
+        965,
+        4184
+      ],
+      "to": [
+        194,
+        1050,
+        4216
+      ],
+      "gap": 84.993,
+      "dz": 32,
+      "assumedSpeed": 250,
+      "fraction": 0.45,
+      "crouch": false,
+      "heading": "N",
+      "landing": [
+        256,
+        256
+      ]
+    }
+  ],
+  "props": [
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        420,
+        -200,
+        70
+      ],
+      "leg": 1
+    },
+    {
+      "model": "props_rooftop/scaffolding01a",
+      "pos": [
+        -420,
+        600,
+        140
+      ],
+      "leg": 1
+    },
+    {
+      "model": "props_rooftop/chimneypipe01a",
+      "pos": [
+        420,
+        600,
+        210
+      ],
+      "leg": 1
+    },
+    {
+      "model": "props_pipes/concrete_pipe001a",
+      "pos": [
+        -420,
+        -200,
+        280
+      ],
+      "leg": 1
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        420,
+        -200,
+        350
+      ],
+      "leg": 1
+    },
+    {
+      "model": "props_rooftop/scaffolding01a",
+      "pos": [
+        -420,
+        600,
+        420
+      ],
+      "leg": 1
+    },
+    {
+      "model": "props_rooftop/chimneypipe01a",
+      "pos": [
+        420,
+        600,
+        490
+      ],
+      "leg": 1
+    },
+    {
+      "model": "props_pipes/concrete_pipe001a",
+      "pos": [
+        -420,
+        -200,
+        560
+      ],
+      "leg": 1
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        420,
+        -200,
+        670
+      ],
+      "leg": 2
+    },
+    {
+      "model": "props_rooftop/scaffolding01a",
+      "pos": [
+        -420,
+        600,
+        740
+      ],
+      "leg": 2
+    },
+    {
+      "model": "props_rooftop/chimneypipe01a",
+      "pos": [
+        420,
+        600,
+        810
+      ],
+      "leg": 2
+    },
+    {
+      "model": "props_pipes/concrete_pipe001a",
+      "pos": [
+        -420,
+        -200,
+        880
+      ],
+      "leg": 2
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        420,
+        -200,
+        950
+      ],
+      "leg": 2
+    },
+    {
+      "model": "props_rooftop/scaffolding01a",
+      "pos": [
+        -420,
+        600,
+        1020
+      ],
+      "leg": 2
+    },
+    {
+      "model": "props_rooftop/chimneypipe01a",
+      "pos": [
+        420,
+        600,
+        1090
+      ],
+      "leg": 2
+    },
+    {
+      "model": "props_pipes/concrete_pipe001a",
+      "pos": [
+        -420,
+        -200,
+        1160
+      ],
+      "leg": 2
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        420,
+        -200,
+        1270
+      ],
+      "leg": 3
+    },
+    {
+      "model": "props_rooftop/scaffolding01a",
+      "pos": [
+        -420,
+        600,
+        1340
+      ],
+      "leg": 3
+    },
+    {
+      "model": "props_rooftop/chimneypipe01a",
+      "pos": [
+        420,
+        600,
+        1410
+      ],
+      "leg": 3
+    },
+    {
+      "model": "props_pipes/concrete_pipe001a",
+      "pos": [
+        -420,
+        -200,
+        1480
+      ],
+      "leg": 3
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        420,
+        -200,
+        1550
+      ],
+      "leg": 3
+    },
+    {
+      "model": "props_rooftop/scaffolding01a",
+      "pos": [
+        -420,
+        600,
+        1620
+      ],
+      "leg": 3
+    },
+    {
+      "model": "props_rooftop/chimneypipe01a",
+      "pos": [
+        420,
+        600,
+        1690
+      ],
+      "leg": 3
+    },
+    {
+      "model": "props_pipes/concrete_pipe001a",
+      "pos": [
+        -420,
+        -200,
+        1760
+      ],
+      "leg": 3
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        420,
+        -200,
+        1870
+      ],
+      "leg": 4
+    },
+    {
+      "model": "props_rooftop/scaffolding01a",
+      "pos": [
+        -420,
+        600,
+        1940
+      ],
+      "leg": 4
+    },
+    {
+      "model": "props_rooftop/chimneypipe01a",
+      "pos": [
+        420,
+        600,
+        2010
+      ],
+      "leg": 4
+    },
+    {
+      "model": "props_pipes/concrete_pipe001a",
+      "pos": [
+        -420,
+        -200,
+        2080
+      ],
+      "leg": 4
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        420,
+        -200,
+        2150
+      ],
+      "leg": 4
+    },
+    {
+      "model": "props_rooftop/scaffolding01a",
+      "pos": [
+        -420,
+        600,
+        2220
+      ],
+      "leg": 4
+    },
+    {
+      "model": "props_rooftop/chimneypipe01a",
+      "pos": [
+        420,
+        600,
+        2290
+      ],
+      "leg": 4
+    },
+    {
+      "model": "props_pipes/concrete_pipe001a",
+      "pos": [
+        -420,
+        -200,
+        2360
+      ],
+      "leg": 4
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        420,
+        -200,
+        2470
+      ],
+      "leg": 5
+    },
+    {
+      "model": "props_rooftop/scaffolding01a",
+      "pos": [
+        -420,
+        600,
+        2540
+      ],
+      "leg": 5
+    },
+    {
+      "model": "props_rooftop/chimneypipe01a",
+      "pos": [
+        420,
+        600,
+        2610
+      ],
+      "leg": 5
+    },
+    {
+      "model": "props_pipes/concrete_pipe001a",
+      "pos": [
+        -420,
+        -200,
+        2680
+      ],
+      "leg": 5
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        420,
+        -200,
+        2750
+      ],
+      "leg": 5
+    },
+    {
+      "model": "props_rooftop/scaffolding01a",
+      "pos": [
+        -420,
+        600,
+        2820
+      ],
+      "leg": 5
+    },
+    {
+      "model": "props_rooftop/chimneypipe01a",
+      "pos": [
+        420,
+        600,
+        2890
+      ],
+      "leg": 5
+    },
+    {
+      "model": "props_pipes/concrete_pipe001a",
+      "pos": [
+        -420,
+        -200,
+        2960
+      ],
+      "leg": 5
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        420,
+        -200,
+        3070
+      ],
+      "leg": 6
+    },
+    {
+      "model": "props_rooftop/scaffolding01a",
+      "pos": [
+        -420,
+        600,
+        3140
+      ],
+      "leg": 6
+    },
+    {
+      "model": "props_rooftop/chimneypipe01a",
+      "pos": [
+        420,
+        600,
+        3210
+      ],
+      "leg": 6
+    },
+    {
+      "model": "props_pipes/concrete_pipe001a",
+      "pos": [
+        -420,
+        -200,
+        3280
+      ],
+      "leg": 6
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        420,
+        -200,
+        3350
+      ],
+      "leg": 6
+    },
+    {
+      "model": "props_rooftop/scaffolding01a",
+      "pos": [
+        -420,
+        600,
+        3420
+      ],
+      "leg": 6
+    },
+    {
+      "model": "props_rooftop/chimneypipe01a",
+      "pos": [
+        420,
+        600,
+        3490
+      ],
+      "leg": 6
+    },
+    {
+      "model": "props_pipes/concrete_pipe001a",
+      "pos": [
+        -420,
+        -200,
+        3560
+      ],
+      "leg": 6
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        420,
+        -200,
+        3670
+      ],
+      "leg": 7
+    },
+    {
+      "model": "props_rooftop/scaffolding01a",
+      "pos": [
+        -420,
+        600,
+        3740
+      ],
+      "leg": 7
+    },
+    {
+      "model": "props_rooftop/chimneypipe01a",
+      "pos": [
+        420,
+        600,
+        3810
+      ],
+      "leg": 7
+    },
+    {
+      "model": "props_pipes/concrete_pipe001a",
+      "pos": [
+        -420,
+        -200,
+        3880
+      ],
+      "leg": 7
+    },
+    {
+      "model": "props_c17/truss03b",
+      "pos": [
+        420,
+        -200,
+        3950
+      ],
+      "leg": 7
+    },
+    {
+      "model": "props_rooftop/scaffolding01a",
+      "pos": [
+        -420,
+        600,
+        4020
+      ],
+      "leg": 7
+    },
+    {
+      "model": "props_rooftop/chimneypipe01a",
+      "pos": [
+        420,
+        600,
+        4090
+      ],
+      "leg": 7
+    },
+    {
+      "model": "props_pipes/concrete_pipe001a",
+      "pos": [
+        -420,
+        -200,
+        4160
+      ],
+      "leg": 7
+    }
+  ],
+  "constructs": [
+    "ladder",
+    "crouch tunnel",
+    "corner",
+    "uphill hop chain"
+  ]
 }
